@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+CA_Suite_1,,,2018-08-15 15:50:26,2018-08-15 15:50:27,"1,878s",FAILED
+,,,,,,
+Test Cases/CA_Test_1,,,2018-08-15 15:50:26,2018-08-15 15:50:27,"1,160s",FAILED
+openBrowser,,,2018-08-15 15:50:26,2018-08-15 15:50:27,"0,806s",FAILED
+,,,,,,
+Test Cases/CA_Test_2,,,2018-08-15 15:50:27,2018-08-15 15:50:27,"0,168s",FAILED
+openBrowser,,,2018-08-15 15:50:27,2018-08-15 15:50:27,"0,017s",FAILED

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CA_Suite_1" time="15" tests="2" failures="0" errors="0">
+   <testsuite name="CA_Suite_1" tests="2" failures="0" errors="0" time="15" timestamp="2018-08-15 14:36:23" hostname="rodrigodavila - 192.168.1.100" id="Test Suites/CA_Suite_1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/rodrigodavila/Katalon Studio/TestProject1/Reports/CA_Suite_1/20180815_143621"/>
+         <property name="logFiles" value="/Users/rodrigodavila/Katalon Studio/TestProject1/Reports/CA_Suite_1/20180815_143621/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rodrigodavila - 192.168.1.100"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="192.168.1.100"/>
+         <property name="sessionId" value="cfe1249bc080fa4b8634683c1945e867"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/CA_Test_1" classname="Test Cases/CA_Test_1" status="PASSED">
+         <system-out><![CDATA[2018-08-15 14:36:23 - [TEST_CASE][PASSED] - Test Cases/CA_Test_1: Test Cases/CA_Test_1
+
+2018-08-15 14:36:24 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-15 14:36:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-15 14:36:26 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.consumeraffairs.com/' successfully
+
+2018-08-15 14:36:28 - [MESSAGE][PASSED] - Navigate to 'https://www.consumeraffairs.com/' successfully
+
+2018-08-15 14:36:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ConsumerAffairs.com Research./div_Dog Food' is clicked on
+
+2018-08-15 14:36:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ConsumerAffairs.com Research./div_Dog Food' is clicked on
+
+2018-08-15 14:36:30 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_Best Dog Food  ConsumerAffairs/a_Visit Website' is clickable
+
+2018-08-15 14:36:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Best Dog Food  ConsumerAffairs/a_Visit Website' is clickable
+
+2018-08-15 14:36:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Best Dog Food  ConsumerAffairs/a_Visit Website' is clicked on
+
+2018-08-15 14:36:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Best Dog Food  ConsumerAffairs/a_Visit Website' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CA_Test_2" classname="Test Cases/CA_Test_2" status="PASSED">
+         <system-out><![CDATA[2018-08-15 14:36:30 - [TEST_CASE][PASSED] - Test Cases/CA_Test_2: Test Cases/CA_Test_2
+
+2018-08-15 14:36:31 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-15 14:36:31 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-15 14:36:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-15 14:36:32 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.consumeraffairs.com/' successfully
+
+2018-08-15 14:36:34 - [MESSAGE][PASSED] - Navigate to 'https://www.consumeraffairs.com/' successfully
+
+2018-08-15 14:36:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ConsumerAffairs.com Research./a_View our buyers guides' is clicked on
+
+2018-08-15 14:36:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ConsumerAffairs.com Research./a_View our buyers guides' is clicked on
+
+2018-08-15 14:36:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Resources by Topic - ConsumerA/a_TravelSpend less time planni' is clicked on
+
+2018-08-15 14:36:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Resources by Topic - ConsumerA/a_TravelSpend less time planni' is clicked on
+
+2018-08-15 14:36:36 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_Resources by Topic - ConsumerA/a_Travel Sites' is clickable
+
+2018-08-15 14:36:36 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Resources by Topic - ConsumerA/a_Travel Sites' is clickable
+
+2018-08-15 14:36:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Resources by Topic - ConsumerA/a_Travel Sites' is clicked on
+
+2018-08-15 14:36:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Resources by Topic - ConsumerA/a_Travel Sites' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-15 14:36:23 - [TEST_SUITE][PASSED] - CA_Suite_1: Test Cases/CA_Test_2]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

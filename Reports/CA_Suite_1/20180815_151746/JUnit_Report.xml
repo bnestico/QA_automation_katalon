@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CA_Suite_1" time="1" tests="0" failures="2" errors="0">
+   <testsuite name="CA_Suite_1" tests="0" failures="2" errors="0" time="1" timestamp="2018-08-15 15:17:49" hostname="rodrigodavila - 192.168.1.100" id="Test Suites/CA_Suite_1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/rodrigodavila/Katalon Studio/TestProject1/Reports/CA_Suite_1/20180815_151746"/>
+         <property name="logFiles" value="/Users/rodrigodavila/Katalon Studio/TestProject1/Reports/CA_Suite_1/20180815_151746/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rodrigodavila - 192.168.1.100"/>
+         <property name="hostAddress" value="192.168.1.100"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+      </properties>
+      <testcase name="Test Cases/CA_Test_1" classname="Test Cases/CA_Test_1" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: MAC
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MacBook-Pro-de-Rodrigo.local', ip: 'fe80:0:0:0:c6b3:1ff:fed3:bab3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-08-15 15:17:50 - [TEST_CASE][FAILED] - Test Cases/CA_Test_1: Test Cases/CA_Test_1 FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: MAC
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MacBook-Pro-de-Rodrigo.local', ip: 'fe80:0:0:0:c6b3:1ff:fed3:bab3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-08-15 15:17:50 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: MAC
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MacBook-Pro-de-Rodrigo.local', ip: 'fe80:0:0:0:c6b3:1ff:fed3:bab3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-08-15 15:17:51 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: MAC
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MacBook-Pro-de-Rodrigo.local', ip: 'fe80:0:0:0:c6b3:1ff:fed3:bab3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-08-15 15:17:50 - [TEST_CASE][FAILED] - Test Cases/CA_Test_1: Test Cases/CA_Test_1 FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: MAC
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MacBook-Pro-de-Rodrigo.local', ip: 'fe80:0:0:0:c6b3:1ff:fed3:bab3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CA_Test_2" classname="Test Cases/CA_Test_2" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: MAC
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MacBook-Pro-de-Rodrigo.local', ip: 'fe80:0:0:0:c6b3:1ff:fed3:bab3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-08-15 15:17:51 - [TEST_CASE][FAILED] - Test Cases/CA_Test_2: Test Cases/CA_Test_2 FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: MAC
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MacBook-Pro-de-Rodrigo.local', ip: 'fe80:0:0:0:c6b3:1ff:fed3:bab3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-08-15 15:17:51 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: MAC
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MacBook-Pro-de-Rodrigo.local', ip: 'fe80:0:0:0:c6b3:1ff:fed3:bab3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-08-15 15:17:51 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: MAC
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MacBook-Pro-de-Rodrigo.local', ip: 'fe80:0:0:0:c6b3:1ff:fed3:bab3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-08-15 15:17:51 - [TEST_CASE][FAILED] - Test Cases/CA_Test_2: Test Cases/CA_Test_2 FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: MAC
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MacBook-Pro-de-Rodrigo.local', ip: 'fe80:0:0:0:c6b3:1ff:fed3:bab3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-15 15:17:49 - [TEST_SUITE][FAILED] - CA_Suite_1: Test Cases/CA_Test_1 FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: MAC
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MacBook-Pro-de-Rodrigo.local', ip: 'fe80:0:0:0:c6b3:1ff:fed3:bab3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)]]></system-out>
+      <system-err><![CDATA[2018-08-15 15:17:49 - [TEST_SUITE][FAILED] - CA_Suite_1: Test Cases/CA_Test_1 FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: MAC
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MacBook-Pro-de-Rodrigo.local', ip: 'fe80:0:0:0:c6b3:1ff:fed3:bab3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)]]></system-err>
+   </testsuite>
+</testsuites>

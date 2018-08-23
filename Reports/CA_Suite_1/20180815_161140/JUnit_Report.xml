@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CA_Suite_1" time="107" tests="2" failures="1" errors="0">
+   <testsuite name="CA_Suite_1" tests="2" failures="1" errors="0" time="107" timestamp="2018-08-15 16:11:45" hostname="rodrigodavila - 192.168.1.100" id="Test Suites/CA_Suite_1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/rodrigodavila/Katalon Studio/TestProject1/Reports/CA_Suite_1/20180815_161140"/>
+         <property name="logFiles" value="/Users/rodrigodavila/Katalon Studio/TestProject1/Reports/CA_Suite_1/20180815_161140/execution0.log"/>
+         <property name="attachments" value="/Users/rodrigodavila/Katalon Studio/TestProject1/Reports/CA_Suite_1/20180815_161140/1534360411457.png"/>
+         <property name="hostName" value="rodrigodavila - 192.168.1.100"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="192.168.1.100"/>
+         <property name="sessionId" value="d08f9ec29d52471adaeab5c7e97e24b6"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=MANUAL_CONFIG, proxyServerType=HTTP, password=, proxyServerAddress=localhost, proxyServerPort=8080}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/CA_Test_1" classname="Test Cases/CA_Test_1" status="PASSED">
+         <system-out><![CDATA[2018-08-15 16:11:46 - [TEST_CASE][PASSED] - Test Cases/CA_Test_1: Test Cases/CA_Test_1
+
+2018-08-15 16:11:48 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-15 16:11:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-15 16:11:54 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.consumeraffairs.com/' successfully
+
+2018-08-15 16:12:03 - [MESSAGE][PASSED] - Navigate to 'https://www.consumeraffairs.com/' successfully
+
+2018-08-15 16:12:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ConsumerAffairs.com Research./div_Dog Food' is clicked on
+
+2018-08-15 16:12:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ConsumerAffairs.com Research./div_Dog Food' is clicked on
+
+2018-08-15 16:12:10 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_Best Dog Food  ConsumerAffairs/a_Visit Website' is clickable
+
+2018-08-15 16:12:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Best Dog Food  ConsumerAffairs/a_Visit Website' is clickable
+
+2018-08-15 16:12:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Best Dog Food  ConsumerAffairs/a_Visit Website' is clicked on
+
+2018-08-15 16:12:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Best Dog Food  ConsumerAffairs/a_Visit Website' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CA_Test_2" classname="Test Cases/CA_Test_2" status="PASSED">
+         <system-out><![CDATA[2018-08-15 16:12:11 - [TEST_CASE][PASSED] - Test Cases/CA_Test_2: Test Cases/CA_Test_2
+
+2018-08-15 16:12:12 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-15 16:12:12 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-15 16:12:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-15 16:12:14 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.consumeraffairs.com/' successfully
+
+2018-08-15 16:12:18 - [MESSAGE][PASSED] - Navigate to 'https://www.consumeraffairs.com/' successfully
+
+2018-08-15 16:12:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ConsumerAffairs.com Research./a_View our buyers guides' is clicked on
+
+2018-08-15 16:12:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ConsumerAffairs.com Research./a_View our buyers guides' is clicked on
+
+2018-08-15 16:12:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Resources by Topic - ConsumerA/a_TravelSpend less time planni' is clicked on
+
+2018-08-15 16:12:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Resources by Topic - ConsumerA/a_TravelSpend less time planni' is clicked on
+
+2018-08-15 16:12:22 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_Resources by Topic - ConsumerA/a_Travel Sites' is clickable
+
+2018-08-15 16:12:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Resources by Topic - ConsumerA/a_Travel Sites' is clickable
+
+2018-08-15 16:12:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Resources by Topic - ConsumerA/a_Travel Sites' is clicked on
+
+2018-08-15 16:12:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Resources by Topic - ConsumerA/a_Travel Sites' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CA_Test_3" classname="Test Cases/CA_Test_3" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_ConsumerAffairs.com Research./a_LOG IN' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_ConsumerAffairs.com Research./a_LOG IN' located by 'By.xpath: //a[@href = 'https://www.consumeraffairs.com/login/?next=/' and (text() = 'LOG IN' or . = 'LOG IN')]' not found)"/>
+         <system-out><![CDATA[2018-08-15 16:12:27 - [TEST_CASE][FAILED] - Test Cases/CA_Test_3: Test Cases/CA_Test_3 FAILED because (of) Unable to click on object 'Object Repository/Page_ConsumerAffairs.com Research./a_LOG IN' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_ConsumerAffairs.com Research./a_LOG IN' located by 'By.xpath: //a[@href = 'https://www.consumeraffairs.com/login/?next=/' and (text() = 'LOG IN' or . = 'LOG IN')]' not found)
+
+2018-08-15 16:12:28 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-15 16:12:28 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-15 16:12:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-15 16:12:29 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.consumeraffairs.com/' successfully
+
+2018-08-15 16:12:33 - [MESSAGE][PASSED] - Navigate to 'https://www.consumeraffairs.com/' successfully
+
+2018-08-15 16:12:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ConsumerAffairs.com Research./a_Buyers Guides' is clicked on
+
+2018-08-15 16:12:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ConsumerAffairs.com Research./a_Buyers Guides' is clicked on
+
+2018-08-15 16:12:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ConsumerAffairs.com Research./a_News' is clicked on
+
+2018-08-15 16:12:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ConsumerAffairs.com Research./a_News' is clicked on
+
+2018-08-15 16:12:41 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_ConsumerAffairs.com Research./a_LOG IN' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_ConsumerAffairs.com Research./a_LOG IN' located by 'By.xpath: //a[@href = 'https://www.consumeraffairs.com/login/?next=/' and (text() = 'LOG IN' or . = 'LOG IN')]' not found)
+
+2018-08-15 16:13:32 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_ConsumerAffairs.com Research./a_LOG IN' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_ConsumerAffairs.com Research./a_LOG IN' located by 'By.xpath: //a[@href = 'https://www.consumeraffairs.com/login/?next=/' and (text() = 'LOG IN' or . = 'LOG IN')]' not found)
+[[ATTACHMENT|/Users/rodrigodavila/Katalon Studio/TestProject1/Reports/CA_Suite_1/20180815_161140/1534360411457.png]]]]></system-out>
+         <system-err><![CDATA[2018-08-15 16:12:27 - [TEST_CASE][FAILED] - Test Cases/CA_Test_3: Test Cases/CA_Test_3 FAILED because (of) Unable to click on object 'Object Repository/Page_ConsumerAffairs.com Research./a_LOG IN' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_ConsumerAffairs.com Research./a_LOG IN' located by 'By.xpath: //a[@href = 'https://www.consumeraffairs.com/login/?next=/' and (text() = 'LOG IN' or . = 'LOG IN')]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-15 16:11:45 - [TEST_SUITE][FAILED] - CA_Suite_1: Test Cases/CA_Test_3 FAILED because (of) Unable to click on object 'Object Repository/Page_ConsumerAffairs.com Research./a_LOG IN' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_ConsumerAffairs.com Research./a_LOG IN' located by 'By.xpath: //a[@href = 'https://www.consumeraffairs.com/login/?next=/' and (text() = 'LOG IN' or . = 'LOG IN')]' not found)]]></system-out>
+      <system-err><![CDATA[2018-08-15 16:11:45 - [TEST_SUITE][FAILED] - CA_Suite_1: Test Cases/CA_Test_3 FAILED because (of) Unable to click on object 'Object Repository/Page_ConsumerAffairs.com Research./a_LOG IN' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_ConsumerAffairs.com Research./a_LOG IN' located by 'By.xpath: //a[@href = 'https://www.consumeraffairs.com/login/?next=/' and (text() = 'LOG IN' or . = 'LOG IN')]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

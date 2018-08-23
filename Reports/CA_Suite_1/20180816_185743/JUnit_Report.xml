@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CA_Suite_1" time="41" tests="3" failures="3" errors="0">
+   <testsuite name="CA_Suite_1" tests="3" failures="3" errors="0" time="41" timestamp="2018-08-16 18:57:46" hostname="rodrigodavila - 192.168.1.100" id="Test Suites/CA_Suite_1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/rodrigodavila/Katalon Studio/TestProject1/Reports/CA_Suite_1/20180816_185743"/>
+         <property name="logFiles" value="/Users/rodrigodavila/Katalon Studio/TestProject1/Reports/CA_Suite_1/20180816_185743/execution0.log"/>
+         <property name="attachments" value="/Users/rodrigodavila/Katalon Studio/TestProject1/Reports/CA_Suite_1/20180816_185743/1534456687423.png, /Users/rodrigodavila/Katalon Studio/TestProject1/Reports/CA_Suite_1/20180816_185743/1534456702501.png, /Users/rodrigodavila/Katalon Studio/TestProject1/Reports/CA_Suite_1/20180816_185743/1534456706869.png"/>
+         <property name="hostName" value="rodrigodavila - 192.168.1.100"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="192.168.1.100"/>
+         <property name="sessionId" value="58dfe794c84663154e13bc2db18f7d16"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/CA_Test_1" classname="Test Cases/CA_Test_1" status="PASSED">
+         <system-out><![CDATA[2018-08-16 18:57:47 - [TEST_CASE][PASSED] - Test Cases/CA_Test_1: Test Cases/CA_Test_1
+
+2018-08-16 18:57:48 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-16 18:57:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-16 18:57:51 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.consumeraffairs.com/' successfully
+
+2018-08-16 18:57:53 - [MESSAGE][PASSED] - Navigate to 'https://www.consumeraffairs.com/' successfully
+
+2018-08-16 18:57:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ConsumerAffairs.com Research./div_Dog Food' is clicked on
+
+2018-08-16 18:57:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ConsumerAffairs.com Research./div_Dog Food' is clicked on
+
+2018-08-16 18:57:56 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_Best Dog Food  ConsumerAffairs/a_Visit Website' is clickable
+
+2018-08-16 18:57:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Best Dog Food  ConsumerAffairs/a_Visit Website' is clickable
+
+2018-08-16 18:57:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Best Dog Food  ConsumerAffairs/a_Visit Website' is clicked on
+
+2018-08-16 18:57:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Best Dog Food  ConsumerAffairs/a_Visit Website' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CA_Test_2" classname="Test Cases/CA_Test_2" status="PASSED">
+         <system-out><![CDATA[2018-08-16 18:57:56 - [TEST_CASE][PASSED] - Test Cases/CA_Test_2: Test Cases/CA_Test_2
+
+2018-08-16 18:57:56 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-16 18:57:56 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-16 18:57:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-16 18:57:58 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.consumeraffairs.com/' successfully
+
+2018-08-16 18:58:00 - [MESSAGE][PASSED] - Navigate to 'https://www.consumeraffairs.com/' successfully
+
+2018-08-16 18:58:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ConsumerAffairs.com Research./a_View our buyers guides' is clicked on
+
+2018-08-16 18:58:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ConsumerAffairs.com Research./a_View our buyers guides' is clicked on
+
+2018-08-16 18:58:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Resources by Topic - ConsumerA/a_TravelSpend less time planni' is clicked on
+
+2018-08-16 18:58:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Resources by Topic - ConsumerA/a_TravelSpend less time planni' is clicked on
+
+2018-08-16 18:58:01 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_Resources by Topic - ConsumerA/a_Travel Sites' is clickable
+
+2018-08-16 18:58:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Resources by Topic - ConsumerA/a_Travel Sites' is clickable
+
+2018-08-16 18:58:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Resources by Topic - ConsumerA/a_Travel Sites' is clicked on
+
+2018-08-16 18:58:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Resources by Topic - ConsumerA/a_Travel Sites' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CA_Test_3" classname="Test Cases/CA_Test_3" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)"/>
+         <system-out><![CDATA[2018-08-16 18:58:03 - [TEST_CASE][FAILED] - Test Cases/CA_Test_3: Test Cases/CA_Test_3 FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-08-16 18:58:03 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-16 18:58:03 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-16 18:58:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-16 18:58:05 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.consumeraffairs.com/' successfully
+
+2018-08-16 18:58:07 - [MESSAGE][PASSED] - Navigate to 'https://www.consumeraffairs.com/' successfully
+
+2018-08-16 18:58:07 - [TEST_STEP][FAILED] - click: Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-08-16 18:58:07 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Page_ConsumerAffairs.com Research. /a_LOG IN' does not exist
+
+2018-08-16 18:58:07 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-08-16 18:58:08 - [MESSAGE][FAILED] - Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|/Users/rodrigodavila/Katalon Studio/TestProject1/Reports/CA_Suite_1/20180816_185743/1534456687423.png]]]]></system-out>
+         <system-err><![CDATA[2018-08-16 18:58:03 - [TEST_CASE][FAILED] - Test Cases/CA_Test_3: Test Cases/CA_Test_3 FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CA_Test_4" classname="Test Cases/CA_Test_4" status="PASSED">
+         <system-out><![CDATA[2018-08-16 18:58:08 - [TEST_CASE][PASSED] - Test Cases/CA_Test_4: Test Cases/CA_Test_4
+
+2018-08-16 18:58:08 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-16 18:58:08 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-16 18:58:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-16 18:58:09 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.consumeraffairs.com/' successfully
+
+2018-08-16 18:58:11 - [MESSAGE][PASSED] - Navigate to 'https://www.consumeraffairs.com/' successfully
+
+2018-08-16 18:58:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ConsumerAffairs.com Research./a_News' is clicked on
+
+2018-08-16 18:58:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ConsumerAffairs.com Research./a_News' is clicked on
+
+2018-08-16 18:58:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Consumer News/a_Buyers Guides' is clicked on
+
+2018-08-16 18:58:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Consumer News/a_Buyers Guides' is clicked on
+
+2018-08-16 18:58:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Resources by Topic - ConsumerA/button_Write a review' is clicked on
+
+2018-08-16 18:58:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Resources by Topic - ConsumerA/button_Write a review' is clicked on
+
+2018-08-16 18:58:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Write a Review/header_Menu Consumer NewsBuyer' is clicked on
+
+2018-08-16 18:58:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Write a Review/header_Menu Consumer NewsBuyer' is clicked on
+
+2018-08-16 18:58:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Write a Review/a_Log in' is clicked on
+
+2018-08-16 18:58:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Write a Review/a_Log in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CA_Test_5" classname="Test Cases/CA_Test_5" status="FAILED">
+         <failure type="FAILED" message="Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)"/>
+         <system-out><![CDATA[2018-08-16 18:58:19 - [TEST_CASE][FAILED] - Test Cases/CA_Test_5: Test Cases/CA_Test_5 FAILED because (of) Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-08-16 18:58:19 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-16 18:58:19 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-16 18:58:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-16 18:58:20 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.consumeraffairs.com/' successfully
+
+2018-08-16 18:58:22 - [MESSAGE][PASSED] - Navigate to 'https://www.consumeraffairs.com/' successfully
+
+2018-08-16 18:58:22 - [TEST_STEP][FAILED] - setText: Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-08-16 18:58:22 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Page_ConsumerAffairs.com Research. /input_q' does not exist
+
+2018-08-16 18:58:22 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-08-16 18:58:23 - [MESSAGE][FAILED] - Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|/Users/rodrigodavila/Katalon Studio/TestProject1/Reports/CA_Suite_1/20180816_185743/1534456702501.png]]]]></system-out>
+         <system-err><![CDATA[2018-08-16 18:58:19 - [TEST_CASE][FAILED] - Test Cases/CA_Test_5: Test Cases/CA_Test_5 FAILED because (of) Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CA_Test_6" classname="Test Cases/CA_Test_6" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)"/>
+         <system-out><![CDATA[2018-08-16 18:58:23 - [TEST_CASE][FAILED] - Test Cases/CA_Test_6: Test Cases/CA_Test_6 FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-08-16 18:58:23 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-16 18:58:23 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-16 18:58:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-16 18:58:24 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.consumeraffairs.com/' successfully
+
+2018-08-16 18:58:26 - [MESSAGE][PASSED] - Navigate to 'https://www.consumeraffairs.com/' successfully
+
+2018-08-16 18:58:26 - [TEST_STEP][FAILED] - click: Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-08-16 18:58:26 - [MESSAGE][WARNING] - Test object id is null
+
+2018-08-16 18:58:26 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-08-16 18:58:27 - [MESSAGE][FAILED] - Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|/Users/rodrigodavila/Katalon Studio/TestProject1/Reports/CA_Suite_1/20180816_185743/1534456706869.png]]]]></system-out>
+         <system-err><![CDATA[2018-08-16 18:58:23 - [TEST_CASE][FAILED] - Test Cases/CA_Test_6: Test Cases/CA_Test_6 FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-16 18:57:46 - [TEST_SUITE][FAILED] - CA_Suite_1: Test Cases/CA_Test_3 FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-out>
+      <system-err><![CDATA[2018-08-16 18:57:46 - [TEST_SUITE][FAILED] - CA_Suite_1: Test Cases/CA_Test_3 FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+   </testsuite>
+</testsuites>

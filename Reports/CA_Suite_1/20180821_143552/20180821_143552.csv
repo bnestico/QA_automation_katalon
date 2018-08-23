@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+CA_Suite_1,,,2018-08-21 14:35:55,2018-08-21 14:35:58,"3,116s",FAILED
+,,,,,,
+Test Cases/CA_Test_3,,,2018-08-21 14:35:55,2018-08-21 14:35:57,"1,716s",FAILED
+openBrowser,,,2018-08-21 14:35:56,2018-08-21 14:35:57,"1,032s",FAILED
+,,,,,,
+Test Cases/CA_Test_5,,,2018-08-21 14:35:57,2018-08-21 14:35:57,"0,331s",FAILED
+openBrowser,,,2018-08-21 14:35:57,2018-08-21 14:35:57,"0,018s",FAILED
+,,,,,,
+Test Cases/CA_Test_6,,,2018-08-21 14:35:57,2018-08-21 14:35:58,"0,309s",FAILED
+openBrowser,,,2018-08-21 14:35:58,2018-08-21 14:35:58,"0,019s",FAILED

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CA_Test_1</name>
+   <tag>CA_dogfood</tag>
+   <comment></comment>
+   <testCaseGuid>c73b69bd-b638-4466-85c4-9e02c39d3ea4</testCaseGuid>
+</TestCaseEntity>

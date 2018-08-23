@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CA_Suite_1" time="112" tests="4" failures="0" errors="0">
+   <testsuite name="CA_Suite_1" tests="4" failures="0" errors="0" time="112" timestamp="2018-08-23 15:02:59" hostname="rodrigodavila - 192.168.1.78" id="Test Suites/CA_Suite_1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/rodrigodavila/Katalon Studio/TestProject1/Reports/CA_Suite_1/20180823_150251"/>
+         <property name="logFiles" value="/Users/rodrigodavila/Katalon Studio/TestProject1/Reports/CA_Suite_1/20180823_150251/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rodrigodavila - 192.168.1.78"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="192.168.1.78"/>
+         <property name="sessionId" value="12e979e480b1505729a3d238ed49d03b"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=MANUAL_CONFIG, proxyServerType=HTTP, password=, proxyServerAddress=localhost, proxyServerPort=8080}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/CA_Test_1" classname="Test Cases/CA_Test_1" status="PASSED">
+         <system-out><![CDATA[2018-08-23 15:03:00 - [TEST_CASE][PASSED] - Test Cases/CA_Test_1: Test Cases/CA_Test_1
+
+2018-08-23 15:03:01 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-23 15:03:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-23 15:03:09 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.consumeraffairs.com/' successfully
+
+2018-08-23 15:03:15 - [MESSAGE][PASSED] - Navigate to 'https://www.consumeraffairs.com/' successfully
+
+2018-08-23 15:03:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ConsumerAffairs.com Research./div_Dog Food' is clicked on
+
+2018-08-23 15:03:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ConsumerAffairs.com Research./div_Dog Food' is clicked on
+
+2018-08-23 15:03:22 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_Best Dog Food  ConsumerAffairs/a_Visit Website' is clickable
+
+2018-08-23 15:03:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Best Dog Food  ConsumerAffairs/a_Visit Website' is clickable
+
+2018-08-23 15:03:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Best Dog Food  ConsumerAffairs/a_Visit Website' is clicked on
+
+2018-08-23 15:03:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Best Dog Food  ConsumerAffairs/a_Visit Website' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CA_Test_2" classname="Test Cases/CA_Test_2" status="PASSED">
+         <system-out><![CDATA[2018-08-23 15:03:24 - [TEST_CASE][PASSED] - Test Cases/CA_Test_2: Test Cases/CA_Test_2
+
+2018-08-23 15:03:25 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-23 15:03:25 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-23 15:03:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-23 15:03:28 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.consumeraffairs.com/' successfully
+
+2018-08-23 15:03:34 - [MESSAGE][PASSED] - Navigate to 'https://www.consumeraffairs.com/' successfully
+
+2018-08-23 15:03:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ConsumerAffairs.com Research./a_View our buyers guides' is clicked on
+
+2018-08-23 15:03:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ConsumerAffairs.com Research./a_View our buyers guides' is clicked on
+
+2018-08-23 15:03:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Resources by Topic - ConsumerA/a_TravelSpend less time planni' is clicked on
+
+2018-08-23 15:03:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Resources by Topic - ConsumerA/a_TravelSpend less time planni' is clicked on
+
+2018-08-23 15:03:38 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_Resources by Topic - ConsumerA/a_Travel Sites' is clickable
+
+2018-08-23 15:03:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Resources by Topic - ConsumerA/a_Travel Sites' is clickable
+
+2018-08-23 15:03:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Resources by Topic - ConsumerA/a_Travel Sites' is clicked on
+
+2018-08-23 15:03:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Resources by Topic - ConsumerA/a_Travel Sites' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CA_Test_3" classname="Test Cases/CA_Test_3" status="PASSED">
+         <system-out><![CDATA[2018-08-23 15:03:43 - [TEST_CASE][PASSED] - Test Cases/CA_Test_3: Test Cases/CA_Test_3
+
+2018-08-23 15:03:44 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-23 15:03:44 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-23 15:03:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-23 15:03:47 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.consumeraffairs.com/' successfully
+
+2018-08-23 15:03:52 - [MESSAGE][PASSED] - Navigate to 'https://www.consumeraffairs.com/' successfully
+
+2018-08-23 15:03:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ConsumerAffairs.com Research./Log_in' is clicked on
+
+2018-08-23 15:03:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ConsumerAffairs.com Research./Log_in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/VideoReview/Written_review_ Existing acc - unverified" classname="Test Cases/VideoReview/Written_review_ Existing acc - unverified" status="PASSED">
+         <system-out><![CDATA[2018-08-23 15:03:57 - [TEST_CASE][PASSED] - Test Cases/VideoReview/Written_review_ Existing acc - unverified: Test Cases/VideoReview/Written_review_ Existing acc - unverified
+
+2018-08-23 15:03:57 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-23 15:03:57 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-23 15:04:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-23 15:04:00 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.consumeraffairs.com/' successfully
+
+2018-08-23 15:04:06 - [MESSAGE][PASSED] - Navigate to 'https://staging.consumeraffairs.com/' successfully
+
+2018-08-23 15:04:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ConsumerAffairs.com Research./btn_write_review' is clicked on
+
+2018-08-23 15:04:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ConsumerAffairs.com Research./btn_write_review' is clicked on
+
+2018-08-23 15:04:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Write a Review/a_Write areview' is clicked on
+
+2018-08-23 15:04:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Write a Review/a_Write areview' is clicked on
+
+2018-08-23 15:04:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Submit a Review/what_company_are_you' is clicked on
+
+2018-08-23 15:04:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Submit a Review/what_company_are_you' is clicked on
+
+2018-08-23 15:04:16 - [TEST_STEP][PASSED] - setText: Text 'Frontpoint' is set on object 'Object Repository/Page_Submit a Review/what_company_are_you'
+
+2018-08-23 15:04:17 - [MESSAGE][PASSED] - Text 'Frontpoint' is set on object 'Object Repository/Page_Submit a Review/what_company_are_you'
+
+2018-08-23 15:04:17 - [TEST_STEP][NOT_RUN] - selectOptionByValue: NOT_RUN: selectOptionByValue
+
+2018-08-23 15:04:17 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue
+
+2018-08-23 15:04:17 - [TEST_STEP][PASSED] - setText: Text 'test department' is set on object 'Object Repository/Page_Submit a Review/input_product_contact'
+
+2018-08-23 15:04:18 - [MESSAGE][PASSED] - Text 'test department' is set on object 'Object Repository/Page_Submit a Review/input_product_contact'
+
+2018-08-23 15:04:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Submit a Review/Rate_star' is clicked on
+
+2018-08-23 15:04:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Submit a Review/Rate_star' is clicked on
+
+2018-08-23 15:04:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Submit a Review/Summarize_your_exp' is clicked on
+
+2018-08-23 15:04:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Submit a Review/Summarize_your_exp' is clicked on
+
+2018-08-23 15:04:18 - [TEST_STEP][PASSED] - setText: Text 'Test review title' is set on object 'Object Repository/Page_Submit a Review/Summarize_your_exp'
+
+2018-08-23 15:04:19 - [MESSAGE][PASSED] - Text 'Test review title' is set on object 'Object Repository/Page_Submit a Review/Summarize_your_exp'
+
+2018-08-23 15:04:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Submit a Review/Please_provide_detail' is clicked on
+
+2018-08-23 15:04:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Submit a Review/Please_provide_detail' is clicked on
+
+2018-08-23 15:04:19 - [TEST_STEP][PASSED] - setText: Text 'Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review ' is set on object 'Object Repository/Page_Submit a Review/Please_provide_detail'
+
+2018-08-23 15:04:30 - [MESSAGE][PASSED] - Text 'Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review ' is set on object 'Object Repository/Page_Submit a Review/Please_provide_detail'
+
+2018-08-23 15:04:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Submit a Review/Terms_of_use_reviews' is clicked on
+
+2018-08-23 15:04:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Submit a Review/Terms_of_use_reviews' is clicked on
+
+2018-08-23 15:04:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Submit a Review/button_Continue' is clicked on
+
+2018-08-23 15:04:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Submit a Review/button_Continue' is clicked on
+
+2018-08-23 15:04:35 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-23 15:04:36 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-23 15:04:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Submit a Review/button_Continue' is clicked on
+
+2018-08-23 15:04:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Submit a Review/button_Continue' is clicked on
+
+2018-08-23 15:04:43 - [TEST_STEP][PASSED] - setText: Text 'dev+qa@consumeraffairs.com' is set on object 'Object Repository/Page_Login/input_username'
+
+2018-08-23 15:04:44 - [MESSAGE][PASSED] - Text 'dev+qa@consumeraffairs.com' is set on object 'Object Repository/Page_Login/input_username'
+
+2018-08-23 15:04:44 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+2018-08-23 15:04:45 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_password'
+
+2018-08-23 15:04:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login/button_Log In' is clicked on
+
+2018-08-23 15:04:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Log In' is clicked on
+
+2018-08-23 15:04:51 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-08-23 15:04:51 - [MESSAGE][NOT_RUN] - NOT_RUN: click]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-23 15:02:59 - [TEST_SUITE][PASSED] - CA_Suite_1: Test Cases/VideoReview/Written_review_ Existing acc - unverified]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
