@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CA_Suite_1" time="53" tests="5" failures="3" errors="0">
+   <testsuite name="CA_Suite_1" tests="5" failures="3" errors="0" time="53" timestamp="2018-08-28 10:52:31" hostname="rodrigodavila - 172.16.200.149" id="Test Suites/CA_Suite_1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/rodrigodavila/Katalon Studio/TestProject1/Reports/CA_Suite_1/20180828_105229"/>
+         <property name="logFiles" value="/Users/rodrigodavila/Katalon Studio/TestProject1/Reports/CA_Suite_1/20180828_105229/execution0.log"/>
+         <property name="attachments" value="/Users/rodrigodavila/Katalon Studio/TestProject1/Reports/CA_Suite_1/20180828_105229/1535464364547.png, /Users/rodrigodavila/Katalon Studio/TestProject1/Reports/CA_Suite_1/20180828_105229/1535464394539.png, /Users/rodrigodavila/Katalon Studio/TestProject1/Reports/CA_Suite_1/20180828_105229/1535464404057.png"/>
+         <property name="hostName" value="rodrigodavila - 172.16.200.149"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="172.16.200.149"/>
+         <property name="sessionId" value="963e5c564772d7b54e259afd25f2c09c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/CA_Test_1" classname="Test Cases/CA_Test_1" status="PASSED">
+         <system-out><![CDATA[2018-08-28 10:52:31 - [TEST_CASE][PASSED] - Test Cases/CA_Test_1: Test Cases/CA_Test_1
+
+2018-08-28 10:52:32 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-28 10:52:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-28 10:52:35 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.consumeraffairs.com/' successfully
+
+2018-08-28 10:52:37 - [MESSAGE][PASSED] - Navigate to 'https://www.consumeraffairs.com/' successfully
+
+2018-08-28 10:52:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ConsumerAffairs.com Research./div_Dog Food' is clicked on
+
+2018-08-28 10:52:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ConsumerAffairs.com Research./div_Dog Food' is clicked on
+
+2018-08-28 10:52:39 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_Best Dog Food  ConsumerAffairs/a_Visit Website' is clickable
+
+2018-08-28 10:52:39 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Best Dog Food  ConsumerAffairs/a_Visit Website' is clickable
+
+2018-08-28 10:52:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Best Dog Food  ConsumerAffairs/a_Visit Website' is clicked on
+
+2018-08-28 10:52:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Best Dog Food  ConsumerAffairs/a_Visit Website' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CA_Test_2" classname="Test Cases/CA_Test_2" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_Resources by Topic - ConsumerA/a_Travel Sites' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MacBook-Pro-de-Rodrigo.local', ip: 'fe80:0:0:0:8a3:7a98:20b1:78ae%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/c4/sk2v9nzx6k5...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: 10747e6a03d1125195991b7e71407465)"/>
+         <system-out><![CDATA[2018-08-28 10:52:39 - [TEST_CASE][FAILED] - Test Cases/CA_Test_2: Test Cases/CA_Test_2 FAILED because (of) Unable to click on object 'Object Repository/Page_Resources by Topic - ConsumerA/a_Travel Sites' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MacBook-Pro-de-Rodrigo.local', ip: 'fe80:0:0:0:8a3:7a98:20b1:78ae%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/c4/sk2v9nzx6k5...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: 10747e6a03d1125195991b7e71407465)
+
+2018-08-28 10:52:39 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-28 10:52:39 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-28 10:52:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-28 10:52:40 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.consumeraffairs.com/' successfully
+
+2018-08-28 10:52:42 - [MESSAGE][PASSED] - Navigate to 'https://www.consumeraffairs.com/' successfully
+
+2018-08-28 10:52:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ConsumerAffairs.com Research./a_View our buyers guides' is clicked on
+
+2018-08-28 10:52:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ConsumerAffairs.com Research./a_View our buyers guides' is clicked on
+
+2018-08-28 10:52:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Resources by Topic - ConsumerA/a_TravelSpend less time planni' is clicked on
+
+2018-08-28 10:52:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Resources by Topic - ConsumerA/a_TravelSpend less time planni' is clicked on
+
+2018-08-28 10:52:44 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_Resources by Topic - ConsumerA/a_Travel Sites' is clickable
+
+2018-08-28 10:52:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Resources by Topic - ConsumerA/a_Travel Sites' is clickable
+
+2018-08-28 10:52:44 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Resources by Topic - ConsumerA/a_Travel Sites' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MacBook-Pro-de-Rodrigo.local', ip: 'fe80:0:0:0:8a3:7a98:20b1:78ae%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/c4/sk2v9nzx6k5...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: 10747e6a03d1125195991b7e71407465)
+
+2018-08-28 10:52:45 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Resources by Topic - ConsumerA/a_Travel Sites' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MacBook-Pro-de-Rodrigo.local', ip: 'fe80:0:0:0:8a3:7a98:20b1:78ae%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/c4/sk2v9nzx6k5...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: 10747e6a03d1125195991b7e71407465)
+[[ATTACHMENT|/Users/rodrigodavila/Katalon Studio/TestProject1/Reports/CA_Suite_1/20180828_105229/1535464364547.png]]]]></system-out>
+         <system-err><![CDATA[2018-08-28 10:52:39 - [TEST_CASE][FAILED] - Test Cases/CA_Test_2: Test Cases/CA_Test_2 FAILED because (of) Unable to click on object 'Object Repository/Page_Resources by Topic - ConsumerA/a_Travel Sites' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MacBook-Pro-de-Rodrigo.local', ip: 'fe80:0:0:0:8a3:7a98:20b1:78ae%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/c4/sk2v9nzx6k5...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: 10747e6a03d1125195991b7e71407465)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CA_Test_3" classname="Test Cases/CA_Test_3" status="PASSED">
+         <system-out><![CDATA[2018-08-28 10:52:45 - [TEST_CASE][PASSED] - Test Cases/CA_Test_3: Test Cases/CA_Test_3
+
+2018-08-28 10:52:45 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-28 10:52:45 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-28 10:52:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-28 10:52:46 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.consumeraffairs.com/' successfully
+
+2018-08-28 10:52:48 - [MESSAGE][PASSED] - Navigate to 'https://www.consumeraffairs.com/' successfully
+
+2018-08-28 10:52:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ConsumerAffairs.com Research./Log_in' is clicked on
+
+2018-08-28 10:52:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ConsumerAffairs.com Research./Log_in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CA_Test_4" classname="Test Cases/CA_Test_4" status="PASSED">
+         <system-out><![CDATA[2018-08-28 10:52:50 - [TEST_CASE][PASSED] - Test Cases/CA_Test_4: Test Cases/CA_Test_4
+
+2018-08-28 10:52:51 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-28 10:52:51 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-28 10:52:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-28 10:52:52 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.consumeraffairs.com/' successfully
+
+2018-08-28 10:52:54 - [MESSAGE][PASSED] - Navigate to 'https://www.consumeraffairs.com/' successfully
+
+2018-08-28 10:52:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ConsumerAffairs.com Research./a_News' is clicked on
+
+2018-08-28 10:52:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ConsumerAffairs.com Research./a_News' is clicked on
+
+2018-08-28 10:52:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Consumer News/a_Buyers Guides' is clicked on
+
+2018-08-28 10:52:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Consumer News/a_Buyers Guides' is clicked on
+
+2018-08-28 10:52:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Resources by Topic - ConsumerA/button_Write a review' is clicked on
+
+2018-08-28 10:52:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Resources by Topic - ConsumerA/button_Write a review' is clicked on
+
+2018-08-28 10:52:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ConsumerAffairs.com Research./Log_in' is clicked on
+
+2018-08-28 10:52:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ConsumerAffairs.com Research./Log_in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CA_Test_5" classname="Test Cases/CA_Test_5" status="PASSED">
+         <system-out><![CDATA[2018-08-28 10:52:59 - [TEST_CASE][PASSED] - Test Cases/CA_Test_5: Test Cases/CA_Test_5
+
+2018-08-28 10:52:59 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-28 10:52:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-28 10:53:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-28 10:53:00 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.consumeraffairs.com/' successfully
+
+2018-08-28 10:53:02 - [MESSAGE][PASSED] - Navigate to 'https://www.consumeraffairs.com/' successfully
+
+2018-08-28 10:53:02 - [TEST_STEP][PASSED] - setText: Text 'dog food' is set on object 'Object Repository/Page_ConsumerAffairs.com Research./home_search'
+
+2018-08-28 10:53:03 - [MESSAGE][PASSED] - Text 'dog food' is set on object 'Object Repository/Page_ConsumerAffairs.com Research./home_search'
+
+2018-08-28 10:53:03 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/Page_ConsumerAffairs.com Research./home_search'
+
+2018-08-28 10:53:05 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_ConsumerAffairs.com Research./home_search']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CA_Test_6" classname="Test Cases/CA_Test_6" status="PASSED">
+         <system-out><![CDATA[2018-08-28 10:53:05 - [TEST_CASE][PASSED] - Test Cases/CA_Test_6: Test Cases/CA_Test_6
+
+2018-08-28 10:53:05 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-28 10:53:05 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-28 10:53:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-28 10:53:06 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.consumeraffairs.com/' successfully
+
+2018-08-28 10:53:08 - [MESSAGE][PASSED] - Navigate to 'https://www.consumeraffairs.com/' successfully
+
+2018-08-28 10:53:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ConsumerAffairs.com Research./a_News' is clicked on
+
+2018-08-28 10:53:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ConsumerAffairs.com Research./a_News' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Categories/Category_test_1" classname="Test Cases/Categories/Category_test_1" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_Resources by Topic - ConsumerA/Jewerly stores' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MacBook-Pro-de-Rodrigo.local', ip: 'fe80:0:0:0:8a3:7a98:20b1:78ae%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/c4/sk2v9nzx6k5...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: 3c5e6fed544f69363bae9cd39e0fc1d4)"/>
+         <system-out><![CDATA[2018-08-28 10:53:10 - [TEST_CASE][FAILED] - Test Cases/Categories/Category_test_1: Test Cases/Categories/Category_test_1 FAILED because (of) Unable to click on object 'Object Repository/Page_Resources by Topic - ConsumerA/Jewerly stores' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MacBook-Pro-de-Rodrigo.local', ip: 'fe80:0:0:0:8a3:7a98:20b1:78ae%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/c4/sk2v9nzx6k5...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: 3c5e6fed544f69363bae9cd39e0fc1d4)
+
+2018-08-28 10:53:10 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-28 10:53:10 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-28 10:53:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-28 10:53:11 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.consumeraffairs.com/' successfully
+
+2018-08-28 10:53:13 - [MESSAGE][PASSED] - Navigate to 'https://staging.consumeraffairs.com/' successfully
+
+2018-08-28 10:53:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ConsumerAffairs.com Research./a_View_all_Categories' is clicked on
+
+2018-08-28 10:53:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ConsumerAffairs.com Research./a_View_all_Categories' is clicked on
+
+2018-08-28 10:53:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Resources by Topic - ConsumerA/a_ShoppingFind exactly what yo' is clicked on
+
+2018-08-28 10:53:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Resources by Topic - ConsumerA/a_ShoppingFind exactly what yo' is clicked on
+
+2018-08-28 10:53:14 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Resources by Topic - ConsumerA/Jewerly stores' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MacBook-Pro-de-Rodrigo.local', ip: 'fe80:0:0:0:8a3:7a98:20b1:78ae%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/c4/sk2v9nzx6k5...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: 3c5e6fed544f69363bae9cd39e0fc1d4)
+
+2018-08-28 10:53:15 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Resources by Topic - ConsumerA/Jewerly stores' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MacBook-Pro-de-Rodrigo.local', ip: 'fe80:0:0:0:8a3:7a98:20b1:78ae%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/c4/sk2v9nzx6k5...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: 3c5e6fed544f69363bae9cd39e0fc1d4)
+[[ATTACHMENT|/Users/rodrigodavila/Katalon Studio/TestProject1/Reports/CA_Suite_1/20180828_105229/1535464394539.png]]]]></system-out>
+         <system-err><![CDATA[2018-08-28 10:53:10 - [TEST_CASE][FAILED] - Test Cases/Categories/Category_test_1: Test Cases/Categories/Category_test_1 FAILED because (of) Unable to click on object 'Object Repository/Page_Resources by Topic - ConsumerA/Jewerly stores' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MacBook-Pro-de-Rodrigo.local', ip: 'fe80:0:0:0:8a3:7a98:20b1:78ae%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/c4/sk2v9nzx6k5...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: 3c5e6fed544f69363bae9cd39e0fc1d4)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Reviews/Written_review_ Existing acc - unverified" classname="Test Cases/Reviews/Written_review_ Existing acc - unverified" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_Submit a Review/button_Continue' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;button type=&quot;submit&quot; id=&quot;submit_review&quot; class=&quot;ca-btn five-review__submit js-submit&quot; onclick=&quot;validateCaptcha(event)&quot;>...&lt;/button> is not clickable at point (592, 836). Other element would receive the click: &lt;iframe title=&quot;Desafío de reCAPTCHA&quot; src=&quot;https://www.google.com/recaptcha/api2/bframe?hl=es-419&amp;amp;v=v1535045166622&amp;amp;k=6LdTKiUUAAAAALIOFPJrWXWOnkCn_Cgtra15wPzx&amp;amp;cb=o2cx89mqpcp&quot; name=&quot;c-rx7ntdn14447&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; sandbox=&quot;allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox&quot; style=&quot;width: 400px; height: 580px;&quot;>&lt;/iframe>
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MacBook-Pro-de-Rodrigo.local', ip: 'fe80:0:0:0:8a3:7a98:20b1:78ae%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/c4/sk2v9nzx6k5...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: 963e5c564772d7b54e259afd25f2c09c)"/>
+         <system-out><![CDATA[2018-08-28 10:53:15 - [TEST_CASE][FAILED] - Test Cases/Reviews/Written_review_ Existing acc - unverified: Test Cases/Reviews/Written_review_ Existing acc - unverified FAILED because (of) Unable to click on object 'Object Repository/Page_Submit a Review/button_Continue' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button type="submit" id="submit_review" class="ca-btn five-review__submit js-submit" onclick="validateCaptcha(event)">...</button> is not clickable at point (592, 836). Other element would receive the click: <iframe title="Desafío de reCAPTCHA" src="https://www.google.com/recaptcha/api2/bframe?hl=es-419&amp;v=v1535045166622&amp;k=6LdTKiUUAAAAALIOFPJrWXWOnkCn_Cgtra15wPzx&amp;cb=o2cx89mqpcp" name="c-rx7ntdn14447" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox" style="width: 400px; height: 580px;"></iframe>
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MacBook-Pro-de-Rodrigo.local', ip: 'fe80:0:0:0:8a3:7a98:20b1:78ae%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/c4/sk2v9nzx6k5...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: 963e5c564772d7b54e259afd25f2c09c)
+
+2018-08-28 10:53:15 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-28 10:53:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-28 10:53:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-28 10:53:16 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.consumeraffairs.com/' successfully
+
+2018-08-28 10:53:18 - [MESSAGE][PASSED] - Navigate to 'https://staging.consumeraffairs.com/' successfully
+
+2018-08-28 10:53:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ConsumerAffairs.com Research./btn_write_review' is clicked on
+
+2018-08-28 10:53:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ConsumerAffairs.com Research./btn_write_review' is clicked on
+
+2018-08-28 10:53:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Write a Review/a_Write areview' is clicked on
+
+2018-08-28 10:53:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Write a Review/a_Write areview' is clicked on
+
+2018-08-28 10:53:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Submit a Review/what_company_are_you' is clicked on
+
+2018-08-28 10:53:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Submit a Review/what_company_are_you' is clicked on
+
+2018-08-28 10:53:20 - [TEST_STEP][PASSED] - setText: Text 'Frontpoint' is set on object 'Object Repository/Page_Submit a Review/what_company_are_you'
+
+2018-08-28 10:53:20 - [MESSAGE][PASSED] - Text 'Frontpoint' is set on object 'Object Repository/Page_Submit a Review/what_company_are_you'
+
+2018-08-28 10:53:20 - [TEST_STEP][NOT_RUN] - selectOptionByValue: NOT_RUN: selectOptionByValue
+
+2018-08-28 10:53:20 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue
+
+2018-08-28 10:53:20 - [TEST_STEP][PASSED] - setText: Text 'test department' is set on object 'Object Repository/Page_Submit a Review/input_product_contact'
+
+2018-08-28 10:53:21 - [MESSAGE][PASSED] - Text 'test department' is set on object 'Object Repository/Page_Submit a Review/input_product_contact'
+
+2018-08-28 10:53:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Submit a Review/Rate_star' is clicked on
+
+2018-08-28 10:53:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Submit a Review/Rate_star' is clicked on
+
+2018-08-28 10:53:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Submit a Review/Summarize_your_exp' is clicked on
+
+2018-08-28 10:53:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Submit a Review/Summarize_your_exp' is clicked on
+
+2018-08-28 10:53:21 - [TEST_STEP][PASSED] - setText: Text 'Test review title' is set on object 'Object Repository/Page_Submit a Review/Summarize_your_exp'
+
+2018-08-28 10:53:21 - [MESSAGE][PASSED] - Text 'Test review title' is set on object 'Object Repository/Page_Submit a Review/Summarize_your_exp'
+
+2018-08-28 10:53:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Submit a Review/Please_provide_detail' is clicked on
+
+2018-08-28 10:53:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Submit a Review/Please_provide_detail' is clicked on
+
+2018-08-28 10:53:21 - [TEST_STEP][PASSED] - setText: Text 'Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review ' is set on object 'Object Repository/Page_Submit a Review/Please_provide_detail'
+
+2018-08-28 10:53:23 - [MESSAGE][PASSED] - Text 'Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review ' is set on object 'Object Repository/Page_Submit a Review/Please_provide_detail'
+
+2018-08-28 10:53:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Submit a Review/Terms_of_use_reviews' is clicked on
+
+2018-08-28 10:53:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Submit a Review/Terms_of_use_reviews' is clicked on
+
+2018-08-28 10:53:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Submit a Review/button_Continue' is clicked on
+
+2018-08-28 10:53:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Submit a Review/button_Continue' is clicked on
+
+2018-08-28 10:53:23 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-28 10:53:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-28 10:53:23 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Submit a Review/button_Continue' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button type="submit" id="submit_review" class="ca-btn five-review__submit js-submit" onclick="validateCaptcha(event)">...</button> is not clickable at point (592, 836). Other element would receive the click: <iframe title="Desafío de reCAPTCHA" src="https://www.google.com/recaptcha/api2/bframe?hl=es-419&amp;v=v1535045166622&amp;k=6LdTKiUUAAAAALIOFPJrWXWOnkCn_Cgtra15wPzx&amp;cb=o2cx89mqpcp" name="c-rx7ntdn14447" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox" style="width: 400px; height: 580px;"></iframe>
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MacBook-Pro-de-Rodrigo.local', ip: 'fe80:0:0:0:8a3:7a98:20b1:78ae%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/c4/sk2v9nzx6k5...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: 963e5c564772d7b54e259afd25f2c09c)
+
+2018-08-28 10:53:24 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Submit a Review/button_Continue' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button type="submit" id="submit_review" class="ca-btn five-review__submit js-submit" onclick="validateCaptcha(event)">...</button> is not clickable at point (592, 836). Other element would receive the click: <iframe title="Desafío de reCAPTCHA" src="https://www.google.com/recaptcha/api2/bframe?hl=es-419&amp;v=v1535045166622&amp;k=6LdTKiUUAAAAALIOFPJrWXWOnkCn_Cgtra15wPzx&amp;cb=o2cx89mqpcp" name="c-rx7ntdn14447" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox" style="width: 400px; height: 580px;"></iframe>
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MacBook-Pro-de-Rodrigo.local', ip: 'fe80:0:0:0:8a3:7a98:20b1:78ae%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/c4/sk2v9nzx6k5...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: 963e5c564772d7b54e259afd25f2c09c)
+[[ATTACHMENT|/Users/rodrigodavila/Katalon Studio/TestProject1/Reports/CA_Suite_1/20180828_105229/1535464404057.png]]]]></system-out>
+         <system-err><![CDATA[2018-08-28 10:53:15 - [TEST_CASE][FAILED] - Test Cases/Reviews/Written_review_ Existing acc - unverified: Test Cases/Reviews/Written_review_ Existing acc - unverified FAILED because (of) Unable to click on object 'Object Repository/Page_Submit a Review/button_Continue' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button type="submit" id="submit_review" class="ca-btn five-review__submit js-submit" onclick="validateCaptcha(event)">...</button> is not clickable at point (592, 836). Other element would receive the click: <iframe title="Desafío de reCAPTCHA" src="https://www.google.com/recaptcha/api2/bframe?hl=es-419&amp;v=v1535045166622&amp;k=6LdTKiUUAAAAALIOFPJrWXWOnkCn_Cgtra15wPzx&amp;cb=o2cx89mqpcp" name="c-rx7ntdn14447" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox" style="width: 400px; height: 580px;"></iframe>
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MacBook-Pro-de-Rodrigo.local', ip: 'fe80:0:0:0:8a3:7a98:20b1:78ae%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/c4/sk2v9nzx6k5...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: 963e5c564772d7b54e259afd25f2c09c)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-28 10:52:31 - [TEST_SUITE][FAILED] - CA_Suite_1: Test Cases/CA_Test_2 FAILED because (of) Unable to click on object 'Object Repository/Page_Resources by Topic - ConsumerA/a_Travel Sites' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MacBook-Pro-de-Rodrigo.local', ip: 'fe80:0:0:0:8a3:7a98:20b1:78ae%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/c4/sk2v9nzx6k5...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: 10747e6a03d1125195991b7e71407465)]]></system-out>
+      <system-err><![CDATA[2018-08-28 10:52:31 - [TEST_SUITE][FAILED] - CA_Suite_1: Test Cases/CA_Test_2 FAILED because (of) Unable to click on object 'Object Repository/Page_Resources by Topic - ConsumerA/a_Travel Sites' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MacBook-Pro-de-Rodrigo.local', ip: 'fe80:0:0:0:8a3:7a98:20b1:78ae%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/c4/sk2v9nzx6k5...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: 10747e6a03d1125195991b7e71407465)]]></system-err>
+   </testsuite>
+</testsuites>

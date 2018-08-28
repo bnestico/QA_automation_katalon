@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CA_Suite_1" time="59" tests="6" failures="1" errors="0">
+   <testsuite name="CA_Suite_1" tests="6" failures="1" errors="0" time="59" timestamp="2018-08-27 15:29:29" hostname="rodrigodavila - 172.16.210.85" id="Test Suites/CA_Suite_1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/rodrigodavila/Katalon Studio/TestProject1/Reports/CA_Suite_1/20180827_152925"/>
+         <property name="logFiles" value="/Users/rodrigodavila/Katalon Studio/TestProject1/Reports/CA_Suite_1/20180827_152925/execution0.log"/>
+         <property name="attachments" value="/Users/rodrigodavila/Katalon Studio/TestProject1/Reports/CA_Suite_1/20180827_152925/1535394627568.png"/>
+         <property name="hostName" value="rodrigodavila - 172.16.210.85"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="172.16.210.85"/>
+         <property name="sessionId" value="17b8ee4008e2b9221f8dc834d3acb69c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/CA_Test_1" classname="Test Cases/CA_Test_1" status="PASSED">
+         <system-out><![CDATA[2018-08-27 15:29:30 - [TEST_CASE][PASSED] - Test Cases/CA_Test_1: Test Cases/CA_Test_1
+
+2018-08-27 15:29:30 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-27 15:29:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-27 15:29:34 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.consumeraffairs.com/' successfully
+
+2018-08-27 15:29:36 - [MESSAGE][PASSED] - Navigate to 'https://www.consumeraffairs.com/' successfully
+
+2018-08-27 15:29:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ConsumerAffairs.com Research./div_Dog Food' is clicked on
+
+2018-08-27 15:29:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ConsumerAffairs.com Research./div_Dog Food' is clicked on
+
+2018-08-27 15:29:38 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_Best Dog Food  ConsumerAffairs/a_Visit Website' is clickable
+
+2018-08-27 15:29:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Best Dog Food  ConsumerAffairs/a_Visit Website' is clickable
+
+2018-08-27 15:29:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Best Dog Food  ConsumerAffairs/a_Visit Website' is clicked on
+
+2018-08-27 15:29:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Best Dog Food  ConsumerAffairs/a_Visit Website' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CA_Test_2" classname="Test Cases/CA_Test_2" status="PASSED">
+         <system-out><![CDATA[2018-08-27 15:29:39 - [TEST_CASE][PASSED] - Test Cases/CA_Test_2: Test Cases/CA_Test_2
+
+2018-08-27 15:29:39 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-27 15:29:39 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-27 15:29:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-27 15:29:40 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.consumeraffairs.com/' successfully
+
+2018-08-27 15:29:42 - [MESSAGE][PASSED] - Navigate to 'https://www.consumeraffairs.com/' successfully
+
+2018-08-27 15:29:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ConsumerAffairs.com Research./a_View our buyers guides' is clicked on
+
+2018-08-27 15:29:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ConsumerAffairs.com Research./a_View our buyers guides' is clicked on
+
+2018-08-27 15:29:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Resources by Topic - ConsumerA/a_TravelSpend less time planni' is clicked on
+
+2018-08-27 15:29:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Resources by Topic - ConsumerA/a_TravelSpend less time planni' is clicked on
+
+2018-08-27 15:29:44 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_Resources by Topic - ConsumerA/a_Travel Sites' is clickable
+
+2018-08-27 15:29:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Resources by Topic - ConsumerA/a_Travel Sites' is clickable
+
+2018-08-27 15:29:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Resources by Topic - ConsumerA/a_Travel Sites' is clicked on
+
+2018-08-27 15:29:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Resources by Topic - ConsumerA/a_Travel Sites' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CA_Test_3" classname="Test Cases/CA_Test_3" status="PASSED">
+         <system-out><![CDATA[2018-08-27 15:29:46 - [TEST_CASE][PASSED] - Test Cases/CA_Test_3: Test Cases/CA_Test_3
+
+2018-08-27 15:29:46 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-27 15:29:46 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-27 15:29:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-27 15:29:47 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.consumeraffairs.com/' successfully
+
+2018-08-27 15:29:49 - [MESSAGE][PASSED] - Navigate to 'https://www.consumeraffairs.com/' successfully
+
+2018-08-27 15:29:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ConsumerAffairs.com Research./Log_in' is clicked on
+
+2018-08-27 15:29:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ConsumerAffairs.com Research./Log_in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CA_Test_4" classname="Test Cases/CA_Test_4" status="PASSED">
+         <system-out><![CDATA[2018-08-27 15:29:52 - [TEST_CASE][PASSED] - Test Cases/CA_Test_4: Test Cases/CA_Test_4
+
+2018-08-27 15:29:52 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-27 15:29:52 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-27 15:29:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-27 15:29:53 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.consumeraffairs.com/' successfully
+
+2018-08-27 15:29:55 - [MESSAGE][PASSED] - Navigate to 'https://www.consumeraffairs.com/' successfully
+
+2018-08-27 15:29:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ConsumerAffairs.com Research./a_News' is clicked on
+
+2018-08-27 15:29:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ConsumerAffairs.com Research./a_News' is clicked on
+
+2018-08-27 15:29:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Consumer News/a_Buyers Guides' is clicked on
+
+2018-08-27 15:29:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Consumer News/a_Buyers Guides' is clicked on
+
+2018-08-27 15:29:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Resources by Topic - ConsumerA/button_Write a review' is clicked on
+
+2018-08-27 15:29:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Resources by Topic - ConsumerA/button_Write a review' is clicked on
+
+2018-08-27 15:29:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ConsumerAffairs.com Research./Log_in' is clicked on
+
+2018-08-27 15:30:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ConsumerAffairs.com Research./Log_in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CA_Test_5" classname="Test Cases/CA_Test_5" status="PASSED">
+         <system-out><![CDATA[2018-08-27 15:30:02 - [TEST_CASE][PASSED] - Test Cases/CA_Test_5: Test Cases/CA_Test_5
+
+2018-08-27 15:30:02 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-27 15:30:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-27 15:30:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-27 15:30:03 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.consumeraffairs.com/' successfully
+
+2018-08-27 15:30:05 - [MESSAGE][PASSED] - Navigate to 'https://www.consumeraffairs.com/' successfully
+
+2018-08-27 15:30:05 - [TEST_STEP][PASSED] - setText: Text 'dog food' is set on object 'Object Repository/Page_ConsumerAffairs.com Research./home_search'
+
+2018-08-27 15:30:06 - [MESSAGE][PASSED] - Text 'dog food' is set on object 'Object Repository/Page_ConsumerAffairs.com Research./home_search'
+
+2018-08-27 15:30:06 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/Page_ConsumerAffairs.com Research./home_search'
+
+2018-08-27 15:30:08 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_ConsumerAffairs.com Research./home_search']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CA_Test_6" classname="Test Cases/CA_Test_6" status="PASSED">
+         <system-out><![CDATA[2018-08-27 15:30:08 - [TEST_CASE][PASSED] - Test Cases/CA_Test_6: Test Cases/CA_Test_6
+
+2018-08-27 15:30:08 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-27 15:30:08 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-27 15:30:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-27 15:30:10 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.consumeraffairs.com/' successfully
+
+2018-08-27 15:30:12 - [MESSAGE][PASSED] - Navigate to 'https://www.consumeraffairs.com/' successfully
+
+2018-08-27 15:30:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ConsumerAffairs.com Research./a_News' is clicked on
+
+2018-08-27 15:30:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ConsumerAffairs.com Research./a_News' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/VideoReview/Written_review_ Existing acc - unverified" classname="Test Cases/VideoReview/Written_review_ Existing acc - unverified" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_Submit a Review/button_Continue' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;button type=&quot;submit&quot; id=&quot;submit_review&quot; class=&quot;ca-btn five-review__submit js-submit&quot; onclick=&quot;validateCaptcha(event)&quot;>...&lt;/button> is not clickable at point (592, 523). Other element would receive the click: &lt;iframe title=&quot;Desafío de reCAPTCHA&quot; src=&quot;https://www.google.com/recaptcha/api2/bframe?hl=es-419&amp;amp;v=v1535045166622&amp;amp;k=6LdTKiUUAAAAALIOFPJrWXWOnkCn_Cgtra15wPzx&amp;amp;cb=c8bn3tw8ctkp&quot; name=&quot;c-2slxqcazo45a&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; sandbox=&quot;allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox&quot; style=&quot;width: 387px; height: 567px;&quot;>&lt;/iframe>
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MacBook-Pro-de-Rodrigo.local', ip: 'fe80:0:0:0:8a3:7a98:20b1:78ae%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/c4/sk2v9nzx6k5...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: 17b8ee4008e2b9221f8dc834d3acb69c)"/>
+         <system-out><![CDATA[2018-08-27 15:30:16 - [TEST_CASE][FAILED] - Test Cases/VideoReview/Written_review_ Existing acc - unverified: Test Cases/VideoReview/Written_review_ Existing acc - unverified FAILED because (of) Unable to click on object 'Object Repository/Page_Submit a Review/button_Continue' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button type="submit" id="submit_review" class="ca-btn five-review__submit js-submit" onclick="validateCaptcha(event)">...</button> is not clickable at point (592, 523). Other element would receive the click: <iframe title="Desafío de reCAPTCHA" src="https://www.google.com/recaptcha/api2/bframe?hl=es-419&amp;v=v1535045166622&amp;k=6LdTKiUUAAAAALIOFPJrWXWOnkCn_Cgtra15wPzx&amp;cb=c8bn3tw8ctkp" name="c-2slxqcazo45a" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox" style="width: 387px; height: 567px;"></iframe>
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MacBook-Pro-de-Rodrigo.local', ip: 'fe80:0:0:0:8a3:7a98:20b1:78ae%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/c4/sk2v9nzx6k5...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: 17b8ee4008e2b9221f8dc834d3acb69c)
+
+2018-08-27 15:30:16 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-27 15:30:16 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-27 15:30:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-27 15:30:17 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.consumeraffairs.com/' successfully
+
+2018-08-27 15:30:19 - [MESSAGE][PASSED] - Navigate to 'https://staging.consumeraffairs.com/' successfully
+
+2018-08-27 15:30:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ConsumerAffairs.com Research./btn_write_review' is clicked on
+
+2018-08-27 15:30:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ConsumerAffairs.com Research./btn_write_review' is clicked on
+
+2018-08-27 15:30:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Write a Review/a_Write areview' is clicked on
+
+2018-08-27 15:30:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Write a Review/a_Write areview' is clicked on
+
+2018-08-27 15:30:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Submit a Review/what_company_are_you' is clicked on
+
+2018-08-27 15:30:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Submit a Review/what_company_are_you' is clicked on
+
+2018-08-27 15:30:22 - [TEST_STEP][PASSED] - setText: Text 'Frontpoint' is set on object 'Object Repository/Page_Submit a Review/what_company_are_you'
+
+2018-08-27 15:30:23 - [MESSAGE][PASSED] - Text 'Frontpoint' is set on object 'Object Repository/Page_Submit a Review/what_company_are_you'
+
+2018-08-27 15:30:23 - [TEST_STEP][NOT_RUN] - selectOptionByValue: NOT_RUN: selectOptionByValue
+
+2018-08-27 15:30:23 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue
+
+2018-08-27 15:30:23 - [TEST_STEP][PASSED] - setText: Text 'test department' is set on object 'Object Repository/Page_Submit a Review/input_product_contact'
+
+2018-08-27 15:30:23 - [MESSAGE][PASSED] - Text 'test department' is set on object 'Object Repository/Page_Submit a Review/input_product_contact'
+
+2018-08-27 15:30:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Submit a Review/Rate_star' is clicked on
+
+2018-08-27 15:30:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Submit a Review/Rate_star' is clicked on
+
+2018-08-27 15:30:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Submit a Review/Summarize_your_exp' is clicked on
+
+2018-08-27 15:30:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Submit a Review/Summarize_your_exp' is clicked on
+
+2018-08-27 15:30:23 - [TEST_STEP][PASSED] - setText: Text 'Test review title' is set on object 'Object Repository/Page_Submit a Review/Summarize_your_exp'
+
+2018-08-27 15:30:23 - [MESSAGE][PASSED] - Text 'Test review title' is set on object 'Object Repository/Page_Submit a Review/Summarize_your_exp'
+
+2018-08-27 15:30:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Submit a Review/Please_provide_detail' is clicked on
+
+2018-08-27 15:30:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Submit a Review/Please_provide_detail' is clicked on
+
+2018-08-27 15:30:24 - [TEST_STEP][PASSED] - setText: Text 'Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review ' is set on object 'Object Repository/Page_Submit a Review/Please_provide_detail'
+
+2018-08-27 15:30:27 - [MESSAGE][PASSED] - Text 'Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review Test review ' is set on object 'Object Repository/Page_Submit a Review/Please_provide_detail'
+
+2018-08-27 15:30:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Submit a Review/Terms_of_use_reviews' is clicked on
+
+2018-08-27 15:30:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Submit a Review/Terms_of_use_reviews' is clicked on
+
+2018-08-27 15:30:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Submit a Review/button_Continue' is clicked on
+
+2018-08-27 15:30:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Submit a Review/button_Continue' is clicked on
+
+2018-08-27 15:30:27 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-08-27 15:30:27 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-08-27 15:30:27 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Submit a Review/button_Continue' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button type="submit" id="submit_review" class="ca-btn five-review__submit js-submit" onclick="validateCaptcha(event)">...</button> is not clickable at point (592, 523). Other element would receive the click: <iframe title="Desafío de reCAPTCHA" src="https://www.google.com/recaptcha/api2/bframe?hl=es-419&amp;v=v1535045166622&amp;k=6LdTKiUUAAAAALIOFPJrWXWOnkCn_Cgtra15wPzx&amp;cb=c8bn3tw8ctkp" name="c-2slxqcazo45a" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox" style="width: 387px; height: 567px;"></iframe>
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MacBook-Pro-de-Rodrigo.local', ip: 'fe80:0:0:0:8a3:7a98:20b1:78ae%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/c4/sk2v9nzx6k5...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: 17b8ee4008e2b9221f8dc834d3acb69c)
+
+2018-08-27 15:30:28 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Submit a Review/button_Continue' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button type="submit" id="submit_review" class="ca-btn five-review__submit js-submit" onclick="validateCaptcha(event)">...</button> is not clickable at point (592, 523). Other element would receive the click: <iframe title="Desafío de reCAPTCHA" src="https://www.google.com/recaptcha/api2/bframe?hl=es-419&amp;v=v1535045166622&amp;k=6LdTKiUUAAAAALIOFPJrWXWOnkCn_Cgtra15wPzx&amp;cb=c8bn3tw8ctkp" name="c-2slxqcazo45a" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox" style="width: 387px; height: 567px;"></iframe>
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MacBook-Pro-de-Rodrigo.local', ip: 'fe80:0:0:0:8a3:7a98:20b1:78ae%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/c4/sk2v9nzx6k5...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: 17b8ee4008e2b9221f8dc834d3acb69c)
+[[ATTACHMENT|/Users/rodrigodavila/Katalon Studio/TestProject1/Reports/CA_Suite_1/20180827_152925/1535394627568.png]]]]></system-out>
+         <system-err><![CDATA[2018-08-27 15:30:16 - [TEST_CASE][FAILED] - Test Cases/VideoReview/Written_review_ Existing acc - unverified: Test Cases/VideoReview/Written_review_ Existing acc - unverified FAILED because (of) Unable to click on object 'Object Repository/Page_Submit a Review/button_Continue' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button type="submit" id="submit_review" class="ca-btn five-review__submit js-submit" onclick="validateCaptcha(event)">...</button> is not clickable at point (592, 523). Other element would receive the click: <iframe title="Desafío de reCAPTCHA" src="https://www.google.com/recaptcha/api2/bframe?hl=es-419&amp;v=v1535045166622&amp;k=6LdTKiUUAAAAALIOFPJrWXWOnkCn_Cgtra15wPzx&amp;cb=c8bn3tw8ctkp" name="c-2slxqcazo45a" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox" style="width: 387px; height: 567px;"></iframe>
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MacBook-Pro-de-Rodrigo.local', ip: 'fe80:0:0:0:8a3:7a98:20b1:78ae%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/c4/sk2v9nzx6k5...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: 17b8ee4008e2b9221f8dc834d3acb69c)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-27 15:29:29 - [TEST_SUITE][FAILED] - CA_Suite_1: Test Cases/VideoReview/Written_review_ Existing acc - unverified FAILED because (of) Unable to click on object 'Object Repository/Page_Submit a Review/button_Continue' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button type="submit" id="submit_review" class="ca-btn five-review__submit js-submit" onclick="validateCaptcha(event)">...</button> is not clickable at point (592, 523). Other element would receive the click: <iframe title="Desafío de reCAPTCHA" src="https://www.google.com/recaptcha/api2/bframe?hl=es-419&amp;v=v1535045166622&amp;k=6LdTKiUUAAAAALIOFPJrWXWOnkCn_Cgtra15wPzx&amp;cb=c8bn3tw8ctkp" name="c-2slxqcazo45a" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox" style="width: 387px; height: 567px;"></iframe>
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MacBook-Pro-de-Rodrigo.local', ip: 'fe80:0:0:0:8a3:7a98:20b1:78ae%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/c4/sk2v9nzx6k5...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: 17b8ee4008e2b9221f8dc834d3acb69c)]]></system-out>
+      <system-err><![CDATA[2018-08-27 15:29:29 - [TEST_SUITE][FAILED] - CA_Suite_1: Test Cases/VideoReview/Written_review_ Existing acc - unverified FAILED because (of) Unable to click on object 'Object Repository/Page_Submit a Review/button_Continue' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button type="submit" id="submit_review" class="ca-btn five-review__submit js-submit" onclick="validateCaptcha(event)">...</button> is not clickable at point (592, 523). Other element would receive the click: <iframe title="Desafío de reCAPTCHA" src="https://www.google.com/recaptcha/api2/bframe?hl=es-419&amp;v=v1535045166622&amp;k=6LdTKiUUAAAAALIOFPJrWXWOnkCn_Cgtra15wPzx&amp;cb=c8bn3tw8ctkp" name="c-2slxqcazo45a" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox" style="width: 387px; height: 567px;"></iframe>
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MacBook-Pro-de-Rodrigo.local', ip: 'fe80:0:0:0:8a3:7a98:20b1:78ae%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/c4/sk2v9nzx6k5...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: 17b8ee4008e2b9221f8dc834d3acb69c)]]></system-err>
+   </testsuite>
+</testsuites>
