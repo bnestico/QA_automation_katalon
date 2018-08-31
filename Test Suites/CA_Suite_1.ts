@@ -58,5 +58,17 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Reviews/Written_review_ Existing acc - unverified</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cd2ecdfc-c53c-4704-95ff-f5b70bee91ff</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e863ba26-2ccc-47f0-92fd-f30015d83aae</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

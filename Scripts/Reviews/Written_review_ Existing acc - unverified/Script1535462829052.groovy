@@ -19,22 +19,22 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+Random rnd = new Random()
+randomNumber = (10000 + rnd.nextInt(250000))
+
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://staging.consumeraffairs.com/')
 
 WebUI.click(findTestObject('Page_ConsumerAffairs.com Research./btn_write_review'))
 
-WebUI.click(findTestObject('Object Repository/Page_Write a Review/a_Write areview'))
+WebUI.click(findTestObject('Page_Write a Review/a_Write areview'))
 
 WebUI.click(findTestObject('Page_Submit a Review/what_company_are_you'))
 
 WebUI.setText(findTestObject('Page_Submit a Review/what_company_are_you'), 'Frontpoint')
 
-not_run: WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Submit a Review/select_Frontpoint'), '16354', 
-    true)
-
-WebUI.setText(findTestObject('Object Repository/Page_Submit a Review/input_product_contact'), 'test department')
+WebUI.setText(findTestObject('Page_Submit a Review/input_product_contact'), 'test department')
 
 WebUI.click(findTestObject('Page_Submit a Review/Rate_star'))
 
@@ -48,17 +48,25 @@ WebUI.setText(findTestObject('Page_Submit a Review/Please_provide_detail'), 'Tes
 
 WebUI.click(findTestObject('Page_Submit a Review/Terms_of_use_reviews'))
 
-WebUI.click(findTestObject('Object Repository/Page_Submit a Review/button_Continue'))
+WebUI.click(findTestObject('Page_Submit a Review/button_Continue'))
 
 WebUI.waitForPageLoad(5)
 
-WebUI.click(findTestObject('Object Repository/Page_Submit a Review/button_Continue'))
+WebUI.click(findTestObject('Page_Submit a Review/button_Continue'))
 
-WebUI.setText(findTestObject('Page_Login/input_username'), 'dev+qa@consumeraffairs.com')
+WebUI.setText(findTestObject('Object Repository/Page_Create your account/input_first_name'), 'Testerson')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login/input_password'), 'slaWsyVk8YVT5/nNqfyoHA0TaSguCV7DqfNTW05xhTM=')
+WebUI.setText(findTestObject('Object Repository/Page_Create your account/input_last_name'), 'Testerlord')
 
-WebUI.click(findTestObject('Object Repository/Page_Login/button_Log In'))
+WebUI.setText(findTestObject('Object Repository/Page_Create your account/input_zip'), '94117')
 
-not_run: WebUI.click(findTestObject('Page_Thank You/a_SEE YOUR REVIEW'))
+//WebUI.setText(findTestObject('Object Repository/Page_Create your account/input_email'), CustomKeywords.'randomData.TestDataGenerator.getRandomFemaleName'()+'@yopmail.com')
+
+WebUI.setText(findTestObject('Object Repository/Page_Create your account/input_email'), String.valueOf(randomNumber)+'catest@yopmail.com')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Create your account/input_password1'), 'tO3m0nBa5UXvNLp7PDyHWw==')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Create your account/input_password2'), 'tO3m0nBa5UXvNLp7PDyHWw==')
+
+WebUI.click(findTestObject('Object Repository/Page_Create your account/button_Create account'))
 
