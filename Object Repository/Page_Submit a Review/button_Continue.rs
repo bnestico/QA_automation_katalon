@@ -4,6 +4,12 @@
    <name>button_Continue</name>
    <tag></tag>
    <elementGuidId>82add271-e23d-4a02-9ec1-9c5bbd0388ab</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;submit_review&quot;)[count(. | //button[@type = 'submit' and @id = 'submit_review' and (text() = 'Continue' or . = 'Continue')]) = count(//button[@type = 'submit' and @id = 'submit_review' and (text() = 'Continue' or . = 'Continue')])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -42,7 +48,7 @@
       <value>Continue</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

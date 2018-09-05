@@ -20,6 +20,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 Random rnd = new Random()
+
 randomNumber = (10000 + rnd.nextInt(250000))
 
 WebUI.openBrowser('')
@@ -61,8 +62,7 @@ WebUI.setText(findTestObject('Object Repository/Page_Create your account/input_l
 WebUI.setText(findTestObject('Object Repository/Page_Create your account/input_zip'), '94117')
 
 //WebUI.setText(findTestObject('Object Repository/Page_Create your account/input_email'), CustomKeywords.'randomData.TestDataGenerator.getRandomFemaleName'()+'@yopmail.com')
-
-WebUI.setText(findTestObject('Object Repository/Page_Create your account/input_email'), String.valueOf(randomNumber)+'catest@yopmail.com')
+WebUI.setText(findTestObject('Object Repository/Page_Create your account/input_email'), String.valueOf(randomNumber) + 'catest@yopmail.com')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Create your account/input_password1'), 'tO3m0nBa5UXvNLp7PDyHWw==')
 
