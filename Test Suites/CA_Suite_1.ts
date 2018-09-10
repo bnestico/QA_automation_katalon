@@ -51,7 +51,7 @@
       <guid>157ee443-93d0-420a-9258-d9cda48d1a17</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Categories/Category_test_1</testCaseId>
+      <testCaseId>Test Cases/BRANDS/brands_Sandbox/Category_test_1</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>41dd14fa-a594-4a6b-a47d-57fd5256dcfe</guid>
