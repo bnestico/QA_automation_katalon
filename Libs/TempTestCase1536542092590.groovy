@@ -13,9 +13,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.mobile.contribution.MobileDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('/var/folders/c4/sk2v9nzx6k56lv2gtq69phyc0000gn/T/Katalon/Test Cases/VideoReview/Written_review_ Existing acc - unverified/20180824_154725/execution.properties')
+RunConfiguration.setExecutionSettingFile('/var/folders/88/ywvz3bxs7138b02_sxvf0xp00000gn/T/Katalon/Test Cases/Login to Main Site/20180909_221452/execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/VideoReview/Written_review_ Existing acc - unverified', new TestCaseBinding('Test Cases/VideoReview/Written_review_ Existing acc - unverified',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/Login to Main Site', new TestCaseBinding('Test Cases/Login to Main Site',[:]), FailureHandling.STOP_ON_FAILURE , false)
     
