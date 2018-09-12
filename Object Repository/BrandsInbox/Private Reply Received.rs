@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Private Reply Received</name>
+   <name>Private Reply Received</name>
    <tag></tag>
    <elementGuidId>d2a909b5-4768-46af-981c-a10e240878e7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = 'Private Reply Received' or . = 'Private Reply Received')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='filter-toggler-priv-rec']/div</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

@@ -13,15 +13,9 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Login to Main Site'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://qa.consumeraffairs.com/login/?next=/brandtools/10848/reviews/')
-
-WebUI.setText(findTestObject('Page_Login/input_Email_username'), 'qa-tester')
-
-WebUI.setEncryptedText(findTestObject('Page_Login/input_Password_password'), 'slaWsyVk8YVT5/nNqfyoHA0TaSguCV7DqfNTW05xhTM=')
-
-WebUI.click(findTestObject('Page_Login/button_Log In'))
+WebUI.navigateToUrl(GlobalVariable.main_site_url + '/login/?next=/brandtools/10848/reviews/')
 
 WebUI.click(findTestObject('BrandsInbox/a_Filter reviews (1)'))
 
@@ -89,43 +83,43 @@ WebUI.click(findTestObject('BrandsInbox/div_Date (1)'))
 
 WebUI.click(findTestObject('BrandsInbox/div_Review action (1)'))
 
-WebUI.click(findTestObject('BrandsInbox/div_Private Reply Received'))
+WebUI.click(findTestObject('BrandsInbox/Private Reply Received'))
 
-WebUI.click(findTestObject('BrandsInbox/label_Has'))
+WebUI.click(findTestObject('BrandsInbox/label_Yes (1)'))
 
-WebUI.click(findTestObject('BrandsInbox/label_Does not have'))
+WebUI.click(findTestObject('BrandsInbox/label_No (1)'))
 
 WebUI.click(findTestObject('BrandsInbox/label_All (1)'))
 
-WebUI.click(findTestObject('BrandsInbox/div_Private Reply Sent'))
+WebUI.click(findTestObject('BrandsInbox/Private Reply Sent'))
 
-WebUI.click(findTestObject('BrandsInbox/label_Has'))
+WebUI.click(findTestObject('BrandsInbox/label_Yes (1)'))
 
-WebUI.click(findTestObject('BrandsInbox/label_Does not have'))
+WebUI.click(findTestObject('BrandsInbox/label_No (1)'))
 
 WebUI.click(findTestObject('BrandsInbox/label_All (1)'))
 
 WebUI.click(findTestObject('BrandsInbox/div_Public Reply Sent'))
 
-WebUI.click(findTestObject('BrandsInbox/label_Has'))
+WebUI.click(findTestObject('BrandsInbox/label_Yes (1)'))
 
-WebUI.click(findTestObject('BrandsInbox/label_Does not have'))
+WebUI.click(findTestObject('BrandsInbox/label_No (1)'))
 
 WebUI.click(findTestObject('BrandsInbox/label_All (1)'))
 
 WebUI.click(findTestObject('BrandsInbox/div_Note Added'))
 
-WebUI.click(findTestObject('BrandsInbox/label_Has'))
+WebUI.click(findTestObject('BrandsInbox/label_Yes (1)'))
 
-WebUI.click(findTestObject('BrandsInbox/label_Does not have'))
+WebUI.click(findTestObject('BrandsInbox/label_No (1)'))
 
 WebUI.click(findTestObject('BrandsInbox/label_All (1)'))
 
 WebUI.click(findTestObject('BrandsInbox/div_Requested New Rating'))
 
-WebUI.click(findTestObject('BrandsInbox/label_Has'))
+WebUI.click(findTestObject('BrandsInbox/label_Yes (1)'))
 
-WebUI.click(findTestObject('BrandsInbox/label_Does not have'))
+WebUI.click(findTestObject('BrandsInbox/label_No (1)'))
 
 WebUI.click(findTestObject('BrandsInbox/label_All (1)'))
 

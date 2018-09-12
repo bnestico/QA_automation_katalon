@@ -34,5 +34,3 @@ WebUI.click(findTestObject('Page_Login/button_Log In'))
 
 WebUI.verifyElementVisible(findTestObject('Page_Your Account/a_Your Account'))
 
-WebUI.closeBrowser()
-
