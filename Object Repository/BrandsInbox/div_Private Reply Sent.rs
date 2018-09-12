@@ -4,10 +4,16 @@
    <name>div_Private Reply Sent</name>
    <tag></tag>
    <elementGuidId>0bf7616e-4f9a-492c-b507-1d795cd3729d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;filter-toggler-private_reply_sent&quot;]/div[1][count(. | //*[(text() = 'Private Reply Sent' or . = 'Private Reply Sent')]) = count(//*[(text() = 'Private Reply Sent' or . = 'Private Reply Sent')])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -35,11 +41,11 @@
       <value>Private Reply Sent</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;filter-toggler-priv-sent&quot;)/div[@class=&quot;ca-a-blk fltr__sbmn-ttl menu-toggler js-menu-toggler&quot;]</value>
+      <value>//*[@id=&quot;filter-toggler-private_reply_sent&quot;]/div[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

@@ -23,111 +23,111 @@ WebUI.setEncryptedText(findTestObject('Page_Login/input_Password_password'), 'sl
 
 WebUI.click(findTestObject('Page_Login/button_Log In'))
 
-WebUI.click(findTestObject('Object Repository/Page_Reviews/a_Filter reviews (1)'))
+WebUI.click(findTestObject('BrandsInbox/a_Filter reviews (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Reviews/div_Status (1)'))
+WebUI.click(findTestObject('BrandsInbox/div_Status (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Reviews/label_Unread (1)'))
+WebUI.click(findTestObject('BrandsInbox/label_Unread (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Reviews/label_Read (1)'))
+WebUI.click(findTestObject('BrandsInbox/label_Read (1)'))
 
-WebUI.click(findTestObject('Page_Reviews/label_All'))
+WebUI.click(findTestObject('BrandsInbox/label_All'))
 
-WebUI.click(findTestObject('Object Repository/Page_Reviews/div_Marked as important (1)'))
+WebUI.click(findTestObject('BrandsInbox/div_Marked as important (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Reviews/label_Yes (1)'))
+WebUI.click(findTestObject('BrandsInbox/label_Yes (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Reviews/label_No (1)'))
+WebUI.click(findTestObject('BrandsInbox/label_No (1)'))
 
-WebUI.click(findTestObject('Page_Reviews/label_All (1)'))
+WebUI.click(findTestObject('BrandsInbox/label_All (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Reviews/div_Star rating increased (1)'))
+WebUI.click(findTestObject('BrandsInbox/div_Star rating increased (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Reviews/label_Yes (1)'))
+WebUI.click(findTestObject('BrandsInbox/label_Yes (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Reviews/label_No (1)'))
+WebUI.click(findTestObject('BrandsInbox/label_No (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Reviews/label_All (1)'))
+WebUI.click(findTestObject('BrandsInbox/label_All (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Reviews/div_Grace period (1)'))
+WebUI.click(findTestObject('BrandsInbox/div_Grace period (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Reviews/label_Yes (1)'))
+WebUI.click(findTestObject('BrandsInbox/label_Yes (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Reviews/label_No (1)'))
+WebUI.click(findTestObject('BrandsInbox/label_No (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Reviews/label_All (1)'))
+WebUI.click(findTestObject('BrandsInbox/label_All (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Reviews/div_Source (1)'))
+WebUI.click(findTestObject('BrandsInbox/div_Source (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Reviews/label_ConsumerAffairs Review F'))
+WebUI.click(findTestObject('BrandsInbox/label_ConsumerAffairs Review F'))
 
-WebUI.click(findTestObject('Object Repository/Page_Reviews/label_Custom Review Form'))
+WebUI.click(findTestObject('BrandsInbox/label_Custom Review Form'))
 
-WebUI.click(findTestObject('Object Repository/Page_Reviews/label_Email Campaign Tool'))
+WebUI.click(findTestObject('BrandsInbox/label_Email Campaign Tool'))
 
-WebUI.click(findTestObject('Object Repository/Page_Reviews/label_Phone Review Collection'))
+WebUI.click(findTestObject('BrandsInbox/label_Phone Review Collection'))
 
-WebUI.click(findTestObject('Object Repository/Page_Reviews/label_Review Collection Card'))
+WebUI.click(findTestObject('BrandsInbox/label_Review Collection Card'))
 
-WebUI.click(findTestObject('Object Repository/Page_Reviews/label_Facebook App Review Form'))
+WebUI.click(findTestObject('BrandsInbox/label_Facebook App Review Form'))
 
-WebUI.click(findTestObject('Object Repository/Page_Reviews/label_Iframe Review Form'))
+WebUI.click(findTestObject('BrandsInbox/label_Iframe Review Form'))
 
-WebUI.click(findTestObject('Object Repository/Page_Reviews/div_Star rating (1)'))
+WebUI.click(findTestObject('BrandsInbox/div_Star rating (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Reviews/img_Star rating_stars-rtg star'))
+WebUI.click(findTestObject('BrandsInbox/img_Star rating_stars-rtg star'))
 
-WebUI.click(findTestObject('Object Repository/Page_Reviews/img_Star rating_stars-rtg star_1'))
+WebUI.click(findTestObject('BrandsInbox/img_Star rating_stars-rtg star_1'))
 
-WebUI.click(findTestObject('Object Repository/Page_Reviews/img_Star rating_stars-rtg star_2'))
+WebUI.click(findTestObject('BrandsInbox/img_Star rating_stars-rtg star_2'))
 
-WebUI.click(findTestObject('Object Repository/Page_Reviews/img_Star rating_stars-rtg star_3'))
+WebUI.click(findTestObject('BrandsInbox/img_Star rating_stars-rtg star_3'))
 
-WebUI.click(findTestObject('Object Repository/Page_Reviews/img_Star rating_stars-rtg star_4'))
+WebUI.click(findTestObject('BrandsInbox/img_Star rating_stars-rtg star_4'))
 
-WebUI.click(findTestObject('Object Repository/Page_Reviews/div_Date (1)'))
+WebUI.click(findTestObject('BrandsInbox/div_Date (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Reviews/div_Review action (1)'))
+WebUI.click(findTestObject('BrandsInbox/div_Review action (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Reviews/div_Private Reply Received'))
+WebUI.click(findTestObject('BrandsInbox/div_Private Reply Received'))
 
-WebUI.click(findTestObject('Object Repository/Page_Reviews/label_Has'))
+WebUI.click(findTestObject('BrandsInbox/label_Has'))
 
-WebUI.click(findTestObject('Object Repository/Page_Reviews/label_Does not have'))
+WebUI.click(findTestObject('BrandsInbox/label_Does not have'))
 
-WebUI.click(findTestObject('Object Repository/Page_Reviews/label_All (1)'))
+WebUI.click(findTestObject('BrandsInbox/label_All (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Reviews/div_Private Reply Sent'))
+WebUI.click(findTestObject('BrandsInbox/div_Private Reply Sent'))
 
-WebUI.click(findTestObject('Object Repository/Page_Reviews/label_Has'))
+WebUI.click(findTestObject('BrandsInbox/label_Has'))
 
-WebUI.click(findTestObject('Object Repository/Page_Reviews/label_Does not have'))
+WebUI.click(findTestObject('BrandsInbox/label_Does not have'))
 
-WebUI.click(findTestObject('Object Repository/Page_Reviews/label_All (1)'))
+WebUI.click(findTestObject('BrandsInbox/label_All (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Reviews/div_Public Reply Sent'))
+WebUI.click(findTestObject('BrandsInbox/div_Public Reply Sent'))
 
-WebUI.click(findTestObject('Object Repository/Page_Reviews/label_Has'))
+WebUI.click(findTestObject('BrandsInbox/label_Has'))
 
-WebUI.click(findTestObject('Object Repository/Page_Reviews/label_Does not have'))
+WebUI.click(findTestObject('BrandsInbox/label_Does not have'))
 
-WebUI.click(findTestObject('Object Repository/Page_Reviews/label_All (1)'))
+WebUI.click(findTestObject('BrandsInbox/label_All (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Reviews/div_Note Added'))
+WebUI.click(findTestObject('BrandsInbox/div_Note Added'))
 
-WebUI.click(findTestObject('Object Repository/Page_Reviews/label_Has'))
+WebUI.click(findTestObject('BrandsInbox/label_Has'))
 
-WebUI.click(findTestObject('Object Repository/Page_Reviews/label_Does not have'))
+WebUI.click(findTestObject('BrandsInbox/label_Does not have'))
 
-WebUI.click(findTestObject('Object Repository/Page_Reviews/label_All (1)'))
+WebUI.click(findTestObject('BrandsInbox/label_All (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Reviews/div_Requested New Rating'))
+WebUI.click(findTestObject('BrandsInbox/div_Requested New Rating'))
 
-WebUI.click(findTestObject('Object Repository/Page_Reviews/label_Has'))
+WebUI.click(findTestObject('BrandsInbox/label_Has'))
 
-WebUI.click(findTestObject('Object Repository/Page_Reviews/label_Does not have'))
+WebUI.click(findTestObject('BrandsInbox/label_Does not have'))
 
-WebUI.click(findTestObject('Object Repository/Page_Reviews/label_All (1)'))
+WebUI.click(findTestObject('BrandsInbox/label_All (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Reviews/a_Apply filter'))
+WebUI.click(findTestObject('BrandsInbox/a_Apply filter'))
 

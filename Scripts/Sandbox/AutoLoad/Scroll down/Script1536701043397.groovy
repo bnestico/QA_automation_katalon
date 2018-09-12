@@ -21,7 +21,5 @@ WebUI.scrollToPosition(9500, 9500)
 
 WebUI.waitForPageLoad(2)
 
-assert siteUrl == getWindowTitle() 
-
 assert siteUrl == WebUI.getUrl()
 
