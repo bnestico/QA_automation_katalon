@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Private Reply Sent</name>
+   <name>filter_Private Reply Sent</name>
    <tag></tag>
    <elementGuidId>0c1ff66a-cb5a-417b-8902-cd5e56958418</elementGuidId>
    <selectorCollection>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Star rating (1)</name>
+   <name>filter_Status</name>
    <tag></tag>
-   <elementGuidId>ba31f586-4640-43d7-bc01-38d03f839311</elementGuidId>
+   <elementGuidId>b5d562fc-0c3f-49b2-aafa-1689bb650620</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,56 +25,56 @@
       <matchCondition>equals</matchCondition>
       <name>data-toggler</name>
       <type>Main</type>
-      <value>filter-menu-stars</value>
+      <value>status</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Star rating </value>
+      <value>Status </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;filter-menu-stars&quot;)/div[@class=&quot;menu-toggler js-menu-toggler fltr__sbmn-hdr&quot;]</value>
+      <value>id(&quot;status&quot;)/div[@class=&quot;menu-toggler js-menu-toggler fltr__sbmn-hdr&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//div[@id='filter-menu-stars']/div</value>
+      <value>//div[@id='status']/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Iframe Review Form'])[1]/following::div[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter reviews'])[2]/following::div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Facebook App Review Form'])[1]/following::div[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reset'])[1]/following::div[5]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Date'])[1]/preceding::div[8]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unread'])[1]/preceding::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='September'])[1]/preceding::div[9]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Read'])[1]/preceding::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div[2]/div[2]/div/div[4]/div</value>
+      <value>//div[2]/div/div[2]/div/div[2]/div</value>
    </webElementXpaths>
 </WebElementEntity>

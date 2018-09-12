@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Star rating increased (1)</name>
+   <name>filter_Star rating increased</name>
    <tag></tag>
    <elementGuidId>37ab7d31-5bb5-4de3-8791-94e23850ef6f</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

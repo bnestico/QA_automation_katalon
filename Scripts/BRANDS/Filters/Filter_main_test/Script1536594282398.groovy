@@ -17,9 +17,9 @@ WebUI.callTestCase(findTestCase('Login to Main Site'), [:], FailureHandling.STOP
 
 WebUI.navigateToUrl(GlobalVariable.main_site_url + '/login/?next=/brandtools/10848/reviews/')
 
-WebUI.click(findTestObject('BrandsInbox/a_Filter reviews (1)'))
+WebUI.click(findTestObject('BrandsInbox/Filter reviews'))
 
-WebUI.click(findTestObject('BrandsInbox/div_Status (1)'))
+WebUI.click(findTestObject('BrandsInbox/filter_Status'))
 
 WebUI.click(findTestObject('BrandsInbox/label_Unread (1)'))
 
@@ -27,7 +27,7 @@ WebUI.click(findTestObject('BrandsInbox/label_Read (1)'))
 
 WebUI.click(findTestObject('BrandsInbox/label_All'))
 
-WebUI.click(findTestObject('BrandsInbox/div_Marked as important (1)'))
+WebUI.click(findTestObject('BrandsInbox/filter_Marked as important'))
 
 WebUI.click(findTestObject('BrandsInbox/label_Yes (1)'))
 
@@ -35,7 +35,7 @@ WebUI.click(findTestObject('BrandsInbox/label_No (1)'))
 
 WebUI.click(findTestObject('BrandsInbox/label_All (1)'))
 
-WebUI.click(findTestObject('BrandsInbox/div_Star rating increased (1)'))
+WebUI.click(findTestObject('BrandsInbox/filter_Star rating increased'))
 
 WebUI.click(findTestObject('BrandsInbox/label_Yes (1)'))
 
@@ -43,7 +43,7 @@ WebUI.click(findTestObject('BrandsInbox/label_No (1)'))
 
 WebUI.click(findTestObject('BrandsInbox/label_All (1)'))
 
-WebUI.click(findTestObject('BrandsInbox/div_Grace period (1)'))
+WebUI.click(findTestObject('BrandsInbox/filter_Grace period'))
 
 WebUI.click(findTestObject('BrandsInbox/label_Yes (1)'))
 
@@ -51,7 +51,7 @@ WebUI.click(findTestObject('BrandsInbox/label_No (1)'))
 
 WebUI.click(findTestObject('BrandsInbox/label_All (1)'))
 
-WebUI.click(findTestObject('BrandsInbox/div_Source (1)'))
+WebUI.click(findTestObject('BrandsInbox/filter_Source'))
 
 WebUI.click(findTestObject('BrandsInbox/label_ConsumerAffairs Review F'))
 
@@ -67,7 +67,7 @@ WebUI.click(findTestObject('BrandsInbox/label_Facebook App Review Form'))
 
 WebUI.click(findTestObject('BrandsInbox/label_Iframe Review Form'))
 
-WebUI.click(findTestObject('BrandsInbox/div_Star rating (1)'))
+WebUI.click(findTestObject('BrandsInbox/filter_Star rating'))
 
 WebUI.click(findTestObject('BrandsInbox/img_Star rating_stars-rtg star'))
 
@@ -81,7 +81,7 @@ WebUI.click(findTestObject('BrandsInbox/img_Star rating_stars-rtg star_4'))
 
 WebUI.click(findTestObject('BrandsInbox/div_Date (1)'))
 
-WebUI.click(findTestObject('BrandsInbox/div_Review action (1)'))
+WebUI.click(findTestObject('BrandsInbox/filter_Review action'))
 
 WebUI.click(findTestObject('BrandsInbox/Private Reply Received'))
 
@@ -91,7 +91,7 @@ WebUI.click(findTestObject('BrandsInbox/label_No (1)'))
 
 WebUI.click(findTestObject('BrandsInbox/label_All (1)'))
 
-WebUI.click(findTestObject('BrandsInbox/Private Reply Sent'))
+WebUI.click(findTestObject('BrandsInbox/filter_Private Reply Sent'))
 
 WebUI.click(findTestObject('BrandsInbox/label_Yes (1)'))
 
@@ -99,7 +99,7 @@ WebUI.click(findTestObject('BrandsInbox/label_No (1)'))
 
 WebUI.click(findTestObject('BrandsInbox/label_All (1)'))
 
-WebUI.click(findTestObject('BrandsInbox/div_Public Reply Sent'))
+WebUI.click(findTestObject('BrandsInbox/filter_Public Reply Sent'))
 
 WebUI.click(findTestObject('BrandsInbox/label_Yes (1)'))
 
@@ -115,7 +115,7 @@ WebUI.click(findTestObject('BrandsInbox/label_No (1)'))
 
 WebUI.click(findTestObject('BrandsInbox/label_All (1)'))
 
-WebUI.click(findTestObject('BrandsInbox/div_Requested New Rating'))
+WebUI.click(findTestObject('BrandsInbox/filter_Requested New Rating'))
 
 WebUI.click(findTestObject('BrandsInbox/label_Yes (1)'))
 
