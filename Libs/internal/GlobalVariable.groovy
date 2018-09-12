@@ -13,14 +13,33 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
  */
 public class GlobalVariable {
      
+    /**
+     * <p></p>
+     */
+    public static Object main_site_url
+     
+    /**
+     * <p></p>
+     */
+    public static Object superuser_username
+     
+    /**
+     * <p></p>
+     */
+    public static Object superuser_password
+     
 
     static {
         def allVariables = [:]        
-        allVariables.put('default', [:])
+        allVariables.put('default', ['main_site_url' : 'https://qa.consumeraffairs.com/', 'superuser_username' : 'dev+qa@consumeraffairs.com', 'superuser_password' : '9am3j4ZOpIRosZM29VAII5nt'])
+        allVariables.put('staging', allVariables['default'] + ['main_site_url' : 'https://staging.consumeraffairs.com/', 'superuser_username' : 'dev+qa@consumeraffairs.com', 'superuser_password' : '9am3j4ZOpIRosZM29VAII5nt'])
         
         String profileName = RunConfiguration.getExecutionProfile()
         
         def selectedVariables = allVariables[profileName]
+        main_site_url = selectedVariables['main_site_url']
+        superuser_username = selectedVariables['superuser_username']
+        superuser_password = selectedVariables['superuser_password']
         
     }
 }
