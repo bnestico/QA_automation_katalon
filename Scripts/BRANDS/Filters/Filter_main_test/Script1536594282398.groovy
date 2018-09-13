@@ -17,113 +17,113 @@ WebUI.callTestCase(findTestCase('Login to Main Site'), [:], FailureHandling.STOP
 
 WebUI.navigateToUrl(GlobalVariable.main_site_url + '/login/?next=/brandtools/10848/reviews/')
 
-WebUI.click(findTestObject('BrandsInbox/Filter reviews'))
+WebUI.click(findTestObject('BrandsInbox/Filter menu/Filter reviews'))
 
-WebUI.click(findTestObject('BrandsInbox/filter_Status'))
+WebUI.click(findTestObject('BrandsInbox/Filter menu/filter_Status'))
 
-WebUI.click(findTestObject('BrandsInbox/label_Unread (1)'))
+WebUI.click(findTestObject('BrandsInbox/Filter menu/label_Unread (1)'))
 
-WebUI.click(findTestObject('BrandsInbox/label_Read (1)'))
+WebUI.click(findTestObject('BrandsInbox/Filter menu/label_Read (1)'))
 
-WebUI.click(findTestObject('BrandsInbox/label_All'))
+WebUI.click(findTestObject('BrandsInbox/Filter menu/label_All'))
 
-WebUI.click(findTestObject('BrandsInbox/filter_Marked as important'))
+WebUI.click(findTestObject('BrandsInbox/Filter menu/filter_Marked as important'))
 
-WebUI.click(findTestObject('BrandsInbox/yes_Mark as important'))
+WebUI.click(findTestObject('BrandsInbox/Filter menu/yes_Mark as important'))
 
-WebUI.click(findTestObject('BrandsInbox/no_Marked as important'))
+WebUI.click(findTestObject('BrandsInbox/Filter menu/no_Marked as important'))
 
-WebUI.click(findTestObject('BrandsInbox/all_Marked as important'))
+WebUI.click(findTestObject('BrandsInbox/Filter menu/all_Marked as important'))
 
-WebUI.click(findTestObject('BrandsInbox/filter_Star rating increased'))
+WebUI.click(findTestObject('BrandsInbox/Filter menu/filter_Star rating increased'))
 
-WebUI.click(findTestObject('BrandsInbox/yes_Star rating increased'))
+WebUI.click(findTestObject('BrandsInbox/Filter menu/yes_Star rating increased'))
 
-WebUI.click(findTestObject('BrandsInbox/no_Star rating increased'))
+WebUI.click(findTestObject('BrandsInbox/Filter menu/no_Star rating increased'))
 
-WebUI.click(findTestObject('BrandsInbox/all_Star rating increased'))
+WebUI.click(findTestObject('BrandsInbox/Filter menu/all_Star rating increased'))
 
-WebUI.click(findTestObject('BrandsInbox/filter_Grace period'))
+WebUI.click(findTestObject('BrandsInbox/Filter menu/filter_Grace period'))
 
-WebUI.click(findTestObject('BrandsInbox/yes_Grace period'))
+WebUI.click(findTestObject('BrandsInbox/Filter menu/yes_Grace period'))
 
-WebUI.click(findTestObject('BrandsInbox/no_Grace period'))
+WebUI.click(findTestObject('BrandsInbox/Filter menu/no_Grace period'))
 
-WebUI.click(findTestObject('BrandsInbox/all_Grace period'))
+WebUI.click(findTestObject('BrandsInbox/Filter menu/all_Grace period'))
 
-WebUI.click(findTestObject('BrandsInbox/filter_Source'))
+WebUI.click(findTestObject('BrandsInbox/Filter menu/filter_Source'))
 
-WebUI.click(findTestObject('BrandsInbox/label_ConsumerAffairs Review F'))
+WebUI.click(findTestObject('BrandsInbox/Filter menu/label_ConsumerAffairs Review F'))
 
-WebUI.click(findTestObject('BrandsInbox/label_Custom Review Form'))
+WebUI.click(findTestObject('BrandsInbox/Filter menu/label_Custom Review Form'))
 
-WebUI.click(findTestObject('BrandsInbox/label_Email Campaign Tool'))
+WebUI.click(findTestObject('BrandsInbox/Filter menu/label_Email Campaign Tool'))
 
-WebUI.click(findTestObject('BrandsInbox/label_Phone Review Collection'))
+WebUI.click(findTestObject('BrandsInbox/Filter menu/label_Phone Review Collection'))
 
-WebUI.click(findTestObject('BrandsInbox/label_Review Collection Card'))
+WebUI.click(findTestObject('BrandsInbox/Filter menu/label_Review Collection Card'))
 
-WebUI.click(findTestObject('BrandsInbox/label_Facebook App Review Form'))
+WebUI.click(findTestObject('BrandsInbox/Filter menu/label_Facebook App Review Form'))
 
-WebUI.click(findTestObject('BrandsInbox/label_Iframe Review Form'))
+WebUI.click(findTestObject('BrandsInbox/Filter menu/label_Iframe Review Form'))
 
-WebUI.click(findTestObject('BrandsInbox/filter_Star rating'))
+WebUI.click(findTestObject('BrandsInbox/Filter menu/filter_Star rating'))
 
-WebUI.click(findTestObject('BrandsInbox/img_Star rating_stars-rtg star'))
+WebUI.click(findTestObject('BrandsInbox/Filter menu/img_Star rating_stars-rtg star'))
 
-WebUI.click(findTestObject('BrandsInbox/img_Star rating_stars-rtg star_1'))
+WebUI.click(findTestObject('BrandsInbox/Filter menu/img_Star rating_stars-rtg star_1'))
 
-WebUI.click(findTestObject('BrandsInbox/img_Star rating_stars-rtg star_2'))
+WebUI.click(findTestObject('BrandsInbox/Filter menu/img_Star rating_stars-rtg star_2'))
 
-WebUI.click(findTestObject('BrandsInbox/img_Star rating_stars-rtg star_3'))
+WebUI.click(findTestObject('BrandsInbox/Filter menu/img_Star rating_stars-rtg star_3'))
 
-WebUI.click(findTestObject('BrandsInbox/img_Star rating_stars-rtg star_4'))
+WebUI.click(findTestObject('BrandsInbox/Filter menu/img_Star rating_stars-rtg star_4'))
 
-WebUI.click(findTestObject('BrandsInbox/div_Date (1)'))
+WebUI.click(findTestObject('BrandsInbox/Filter menu/div_Date (1)'))
 
-WebUI.click(findTestObject('BrandsInbox/filter_Review action'))
+WebUI.click(findTestObject('BrandsInbox/Filter menu/filter_Review action'))
 
-WebUI.click(findTestObject('BrandsInbox/Private Reply Received'))
+WebUI.click(findTestObject('BrandsInbox/Filter menu/Private Reply Received'))
 
-WebUI.click(findTestObject('BrandsInbox/yes_Private reply received'))
+WebUI.click(findTestObject('BrandsInbox/Filter menu/yes_Private reply received'))
 
-WebUI.click(findTestObject('BrandsInbox/no_Private reply received'))
+WebUI.click(findTestObject('BrandsInbox/Filter menu/no_Private reply received'))
 
-WebUI.click(findTestObject('BrandsInbox/all_Private reply received'))
+WebUI.click(findTestObject('BrandsInbox/Filter menu/all_Private reply received'))
 
-WebUI.click(findTestObject('BrandsInbox/filter_Private Reply Sent'))
+WebUI.click(findTestObject('BrandsInbox/Filter menu/filter_Private Reply Sent'))
 
-WebUI.click(findTestObject('BrandsInbox/yes_Private reply sent'))
+WebUI.click(findTestObject('BrandsInbox/Filter menu/yes_Private reply sent'))
 
-WebUI.click(findTestObject('BrandsInbox/no_Private reply sent'))
+WebUI.click(findTestObject('BrandsInbox/Filter menu/no_Private reply sent'))
 
-WebUI.click(findTestObject('BrandsInbox/all_Private reply sent'))
+WebUI.click(findTestObject('BrandsInbox/Filter menu/all_Private reply sent'))
 
-WebUI.click(findTestObject('BrandsInbox/filter_Public Reply Sent'))
+WebUI.click(findTestObject('BrandsInbox/Filter menu/filter_Public Reply Sent'))
 
-WebUI.click(findTestObject('BrandsInbox/yes_Public reply sent'))
+WebUI.click(findTestObject('BrandsInbox/Filter menu/yes_Public reply sent'))
 
-WebUI.click(findTestObject('BrandsInbox/no_Public reply sent'))
+WebUI.click(findTestObject('BrandsInbox/Filter menu/no_Public reply sent'))
 
-WebUI.click(findTestObject('BrandsInbox/all_Public reply sent'))
+WebUI.click(findTestObject('BrandsInbox/Filter menu/all_Public reply sent'))
 
-WebUI.click(findTestObject('BrandsInbox/div_Note Added'))
+WebUI.click(findTestObject('BrandsInbox/Filter menu/div_Note Added'))
 
-WebUI.click(findTestObject('BrandsInbox/yes_Note added'))
+WebUI.click(findTestObject('BrandsInbox/Filter menu/yes_Note added'))
 
-WebUI.click(findTestObject('BrandsInbox/no_Note added'))
+WebUI.click(findTestObject('BrandsInbox/Filter menu/no_Note added'))
 
-WebUI.click(findTestObject('BrandsInbox/all_Note added'))
+WebUI.click(findTestObject('BrandsInbox/Filter menu/all_Note added'))
 
-WebUI.click(findTestObject('BrandsInbox/filter_Requested New Rating'))
+WebUI.click(findTestObject('BrandsInbox/Filter menu/filter_Requested New Rating'))
 
-WebUI.click(findTestObject('BrandsInbox/yes_Requested new rating'))
+WebUI.click(findTestObject('BrandsInbox/Filter menu/yes_Requested new rating'))
 
-WebUI.click(findTestObject('BrandsInbox/no_Requested new rating'))
+WebUI.click(findTestObject('BrandsInbox/Filter menu/no_Requested new rating'))
 
-WebUI.click(findTestObject('BrandsInbox/all_Requested new rating'))
+WebUI.click(findTestObject('BrandsInbox/Filter menu/all_Requested new rating'))
 
-WebUI.click(findTestObject('BrandsInbox/a_Apply filter'))
+WebUI.click(findTestObject('BrandsInbox/Filter menu/a_Apply filter'))
 
 WebUI.closeBrowser()
 
