@@ -29,27 +29,27 @@ WebUI.click(findTestObject('BrandsInbox/label_All'))
 
 WebUI.click(findTestObject('BrandsInbox/filter_Marked as important'))
 
-WebUI.click(findTestObject('BrandsInbox/label_Yes (1)'))
+WebUI.click(findTestObject('BrandsInbox/yes_Mark as important'))
 
-WebUI.click(findTestObject('BrandsInbox/label_No (1)'))
+WebUI.click(findTestObject('BrandsInbox/no_Marked as important'))
 
-WebUI.click(findTestObject('BrandsInbox/label_All (1)'))
+WebUI.click(findTestObject('BrandsInbox/all_Marked as important'))
 
 WebUI.click(findTestObject('BrandsInbox/filter_Star rating increased'))
 
-WebUI.click(findTestObject('BrandsInbox/label_Yes (1)'))
+WebUI.click(findTestObject('BrandsInbox/yes_Star rating increased'))
 
-WebUI.click(findTestObject('BrandsInbox/label_No (1)'))
+WebUI.click(findTestObject('BrandsInbox/no_Star rating increased'))
 
-WebUI.click(findTestObject('BrandsInbox/label_All (1)'))
+WebUI.click(findTestObject('BrandsInbox/all_Star rating increased'))
 
 WebUI.click(findTestObject('BrandsInbox/filter_Grace period'))
 
-WebUI.click(findTestObject('BrandsInbox/label_Yes (1)'))
+WebUI.click(findTestObject('BrandsInbox/yes_Grace period'))
 
-WebUI.click(findTestObject('BrandsInbox/label_No (1)'))
+WebUI.click(findTestObject('BrandsInbox/no_Grace period'))
 
-WebUI.click(findTestObject('BrandsInbox/label_All (1)'))
+WebUI.click(findTestObject('BrandsInbox/all_Grace period'))
 
 WebUI.click(findTestObject('BrandsInbox/filter_Source'))
 
@@ -85,43 +85,45 @@ WebUI.click(findTestObject('BrandsInbox/filter_Review action'))
 
 WebUI.click(findTestObject('BrandsInbox/Private Reply Received'))
 
-WebUI.click(findTestObject('BrandsInbox/label_Yes (1)'))
+WebUI.click(findTestObject('BrandsInbox/yes_Private reply received'))
 
-WebUI.click(findTestObject('BrandsInbox/label_No (1)'))
+WebUI.click(findTestObject('BrandsInbox/no_Private reply received'))
 
-WebUI.click(findTestObject('BrandsInbox/label_All (1)'))
+WebUI.click(findTestObject('BrandsInbox/all_Private reply received'))
 
 WebUI.click(findTestObject('BrandsInbox/filter_Private Reply Sent'))
 
-WebUI.click(findTestObject('BrandsInbox/label_Yes (1)'))
+WebUI.click(findTestObject('BrandsInbox/yes_Private reply sent'))
 
-WebUI.click(findTestObject('BrandsInbox/label_No (1)'))
+WebUI.click(findTestObject('BrandsInbox/no_Private reply sent'))
 
-WebUI.click(findTestObject('BrandsInbox/label_All (1)'))
+WebUI.click(findTestObject('BrandsInbox/all_Private reply sent'))
 
 WebUI.click(findTestObject('BrandsInbox/filter_Public Reply Sent'))
 
-WebUI.click(findTestObject('BrandsInbox/label_Yes (1)'))
+WebUI.click(findTestObject('BrandsInbox/yes_Public reply sent'))
 
-WebUI.click(findTestObject('BrandsInbox/label_No (1)'))
+WebUI.click(findTestObject('BrandsInbox/no_Public reply sent'))
 
-WebUI.click(findTestObject('BrandsInbox/label_All (1)'))
+WebUI.click(findTestObject('BrandsInbox/all_Public reply sent'))
 
 WebUI.click(findTestObject('BrandsInbox/div_Note Added'))
 
-WebUI.click(findTestObject('BrandsInbox/label_Yes (1)'))
+WebUI.click(findTestObject('BrandsInbox/yes_Note added'))
 
-WebUI.click(findTestObject('BrandsInbox/label_No (1)'))
+WebUI.click(findTestObject('BrandsInbox/no_Note added'))
 
-WebUI.click(findTestObject('BrandsInbox/label_All (1)'))
+WebUI.click(findTestObject('BrandsInbox/all_Note added'))
 
 WebUI.click(findTestObject('BrandsInbox/filter_Requested New Rating'))
 
-WebUI.click(findTestObject('BrandsInbox/label_Yes (1)'))
+WebUI.click(findTestObject('BrandsInbox/yes_Requested new rating'))
 
-WebUI.click(findTestObject('BrandsInbox/label_No (1)'))
+WebUI.click(findTestObject('BrandsInbox/no_Requested new rating'))
 
-WebUI.click(findTestObject('BrandsInbox/label_All (1)'))
+WebUI.click(findTestObject('BrandsInbox/all_Requested new rating'))
 
 WebUI.click(findTestObject('BrandsInbox/a_Apply filter'))
+
+WebUI.closeBrowser()
 

@@ -4,6 +4,12 @@
    <name>label_All (1)</name>
    <tag></tag>
    <elementGuidId>fd4b99ad-fcca-47db-a8b8-2da24050c3a0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//label[(text() = 'All' or . = 'All')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -39,7 +45,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;status&quot;)/div[@class=&quot;fltr__sbmn-cntnt&quot;]/div[@class=&quot;fltr__sbmn-optn fltr__sbmn-status&quot;]/label[@class=&quot;ca-form__radio-label&quot;]</value>
+      <value>//*[@id=&quot;filter-toggler-important&quot;]/div[2]/label[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
